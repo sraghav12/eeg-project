@@ -1,4 +1,5 @@
 images/
+captions/
 *.npy
 *.pth
 *.pt
