@@ -1,0 +1,983 @@
+image_name,category,true_caption,retrieved_caption,CLIPScore_matched,CLIPScore_retrieved,CLIPScore_random,BERTScore_F1
+000333,train,Freight train winding through rural landscape,Freight train traveling along rural tracks,0.28741473,0.29556644,0.09657807,0.9479001
+2010_004832,dog,Dog near wooden table and Christmas tree,Dog near wooden table and Christmas tree,0.28290355,0.28290355,0.11393742,1.0000001
+n04483307_9871,boat,Boat anchored near a cloudy shoreline,Racing boat gliding swiftly on ocean water,0.26057267,0.28031024,0.15376979,0.8873462
+2009_000161,bicycle,Bicycle resting on a forest trail,Bicycle resting on a forest trail,0.31896865,0.31896865,0.12474008,0.99999994
+n03095699_17813,boat,Boat carrying shipping containers on the sea,Container boat loaded with cargo at sea,0.2813617,0.30137014,0.17682658,0.9328153
+n02410509_505,cow,Cow walking on grassy field near tents,Two sheep grazing on green grass,0.24812508,0.26684123,0.18791765,0.9081868
+2009_000011,train,Freight train passing through mountain valley station,Maroon train traveling on city railway tracks,0.29317355,0.3109006,0.11368429,0.8957701
+n03782006_15784,tvmonitor,tvmonitor displaying game prompt inside wooden cabinet,Old Compaq tvmonitor displaying Mac OS X,0.30712324,0.30753034,0.117859565,0.86300904
+009860,train,Vintage train parked beside a quiet platform,Vintage train parked beside a quiet platform,0.2920366,0.2920366,0.1202244,1.0
+n03983396_5791,bottle,Bottle collection displayed on a wooden shelf,Bottle of soda among other glass bottles,0.32099187,0.32422388,0.04830842,0.88512623
+000115,bird,Bird perched on a wooden branch,Bird eating from a person's hand outdoors,0.29013854,0.3045293,0.16740626,0.9057376
+n11939491_14952,flower,Purple flower with green blurred surroundings,Purple flower with green blurred surroundings,0.31956828,0.31956828,0.15351447,1.0000001
+2009_001902,dog,Dog under wooden table on carpeted floor,Dog under wooden table on carpeted floor,0.314253,0.314253,0.14119875,1.0
+2011_001827,train,Passenger train approaching through forested tracks,Freight train passing by a station platform,0.29137897,0.30465424,0.15415327,0.90429103
+n04344873_22734,sofa,Sofa and bed in a cozy room,Beige folding chair on carpeted floor,0.24733838,0.25403145,0.12241577,0.88071555
+2008_003302,bus,Red double-decker bus parked near trees,Red double-decker bus beside glass shelter,0.30820194,0.32165942,0.11545126,0.9439661
+000712,train,Freight train passing through a wooded area,Freight train passing through a wooded area,0.31542534,0.31542534,0.15886915,1.0
+n04344873_25195,sofa,Cream sofa with cushions and patterned rug,Cream sofa with cushions and patterned rug,0.3291399,0.3291399,0.06950456,1.0
+2010_001126,boat,Boat cruising on river near a bridge,Container boat passing along a wide river,0.29659745,0.30470502,0.16917105,0.9042059
+2009_000805,bicycle,Black bicycle on gray tiled floor,Black bicycle on gray tiled floor,0.30466402,0.30466402,0.1405422,1.0000001
+001019,cat,Cat lounging on a patterned quilt,Cat with pink collar lying on blanket,0.28622139,0.29616123,0.1342382,0.9001239
+n03201208_22139,diningtable,Diningtable with plates cups and scattered toys,Diningtable with plates cups and scattered toys,0.3806845,0.3806845,0.1610172,1.0
+2009_002672,dog,Fluffy white dog resting on green grass,Fluffy white dog resting on green grass,0.33116245,0.33116245,0.18402246,1.0
+n03792782_7578,bicycle,Bicycle with yellow rims on a red mat,Bicycle with yellow rims on a red mat,0.313365,0.313365,0.13703112,1.0
+n03201208_22846,diningtable,Marble diningtable with white chairs and tiles,Marble diningtable with white chairs and tiles,0.3415053,0.3415053,0.15905342,1.0
+2009_003901,cow,Cow resting on dirt near metal fence,Cow standing near a wire fence enclosure,0.29694402,0.31600386,0.21062629,0.93021864
+n03782006_5311,tvmonitor,tvmonitor on wooden desk beside lamp,tvmonitor on wooden desk beside lamp,0.32704872,0.32704872,0.14739007,1.0000001
+2010_000863,bird,White bird grooming feathers near travel map,White bird grooming feathers near travel map,0.32715392,0.32715392,0.11346815,1.0
+2010_002452,motorbike,Motorbike parked on grass near trees,Classic motorbike parked by a grassy roadside,0.26853427,0.2861556,0.13837221,0.9384427
+007993,aeroplane,Aeroplane on a wet airport runway,Aeroplane taxiing on a wet runway,0.28534257,0.28955355,0.06908917,0.9755601
+n11939491_44102,flower,Yellow flower with green blurred surroundings,Yellow flower bloom against a dark backdrop,0.31709915,0.32392898,0.13296482,0.91428655
+n11939491_19368,flower,Orange flower surrounded by green leaves and pots,Orange flower with soft green surroundings,0.32283553,0.34191632,0.16897875,0.9181052
+2010_001089,cat,Long haired cat with green eyes outdoors,Cat face close-up with long whiskers,0.28843033,0.30113345,0.18392512,0.86404496
+n03201208_20360,diningtable,Glass diningtable with metal chairs and art,Diningtable with chairs beside a yellow wall,0.310341,0.33805513,0.17009485,0.91012293
+n02403003_1254,cow,Cow pulling a wooden cart on dirt road,Cow pulling a wooden cart on dirt road,0.31729913,0.31729913,0.13484734,1.0
+n02408429_9790,cow,Cow grazing among tall green grass,Cow standing on grassy field near bush,0.27815205,0.27959624,0.2112028,0.8996965
+003381,aeroplane,Aeroplane on runway near green grass,Aeroplane being towed on airport runway,0.270842,0.28668186,0.20829752,0.942997
+n03983396_5514,bottle,Colorful bottle display arranged on a table,Colorful bottle display arranged on a table,0.33089322,0.33089322,0.1022531,1.0
+n04152593_34082,tvmonitor,tvmonitor displaying rows of green question marks,Vintage tvmonitor displays green wireframe graphics,0.32346016,0.34619543,0.10896779,0.893583
+009616,bird,Bird flying above flowering branches and leaves,Bird flying above flowering branches and leaves,0.2906775,0.2906775,0.10272829,1.0000001
+n03201208_17049,diningtable,Diningtable set with plates and breakfast items,Diningtable with four chairs and ceramic bowls,0.29837775,0.30535018,0.097240195,0.9172696
+n03201208_26293,diningtable,Diningtable set with four chairs and placemats,Diningtable set with four chairs and placemats,0.31817186,0.31817186,0.21386111,1.0
+2011_001984,dog,Dog standing on a brick patio tiles,Dog with a green collar indoors,0.24953677,0.2630871,0.13813235,0.8831607
+n02835271_26139,bicycle,Tandem bicycle on kitchen tile floor,Tandem bicycle on kitchen tile floor,0.31547475,0.31547475,0.12107439,1.0
+n02389026_23597,horse,Horse running on green grassy hills,Horse and foal together on grassy field,0.30637422,0.3373274,0.11226476,0.93536496
+n02835271_15617,bicycle,Bicycle with blue handlebars near garage doors,Bicycle with bamboo frame near a wall,0.2985533,0.32009792,0.13763835,0.9264777
+n04344873_1397,sofa,Black leather sofa beside library bookshelves,Black leather sofa beside library bookshelves,0.3410719,0.3410719,0.26622444,0.9999999
+n04483307_2987,boat,Small teal boat sailing on calm water,Small teal boat sailing on calm water,0.31814492,0.31814492,0.12148124,1.0
+n04344873_15975,sofa,Beige sofa with dark wooden armrests,Beige sofa with dark wooden armrests,0.31718323,0.31718323,0.19985965,1.0
+2009_001225,dog,Dog in a sweater standing on table,Dog in a sweater standing on table,0.33035785,0.33035785,0.23237166,1.0
+n02403003_1819,cow,Cow standing on dirt near metal fencing,Brown horse standing in a fenced enclosure,0.24506612,0.27282184,0.15510538,0.9136443
+2008_004758,bicycle,Bicycle leaning against bricks in scrapyard,Bicycle leaning against bricks in scrapyard,0.33206263,0.33206263,0.14101708,0.99999994
+n04483307_235,boat,Racing boat gliding swiftly on ocean water,Racing boat gliding swiftly on ocean water,0.2912827,0.2912827,0.12591614,1.0
+n03785016_18863,motorbike,Red motorbike parked beside a sidewalk,Red motorbike parked on quiet roadside grass,0.28009868,0.30326894,0.14284523,0.9315797
+n03095699_266,boat,Boat carrying cargo containers on open water,Large cargo boat carrying colorful shipping containers,0.31002665,0.31750065,0.14888331,0.92828685
+n04487081_3382,bus,Blue double-decker bus inside a garage,Blue double-decker bus inside a garage,0.33658537,0.33658537,0.12379573,1.0
+n03376595_4004,chair,Metal chair on carpeted floor by wall,Beige folding chair on carpeted floor,0.28103754,0.29737902,0.10592696,0.9398235
+n02412080_18910,sheep,Sheep standing together near a metal fence,Sheep with short wool in a pen,0.29511517,0.32508433,0.16796005,0.90174335
+n03983396_14751,bottle,Bottle lineup with colorful plastic cups on counter,Bottle lineup of colorful sodas in snow,0.30768138,0.32043517,0.13759929,0.91537094
+n04483307_911,boat,Sailboat gliding on a calm lake,Sailboat gliding on calm open water,0.30070072,0.30975956,0.09036552,0.9743266
+n02791124_1740,chair,Barber chair with red seat in shop,Barber chair with red seat in shop,0.3418095,0.3418095,0.20435312,0.9999999
+2008_006621,aeroplane,Aeroplane flying in clear blue sky,Aeroplane flying in clear blue sky,0.27999216,0.27999216,0.15583712,1.0
+n11939491_6715,flower,White flower blooming among green stems,White daisy flower surrounded by green grass,0.2907764,0.337288,0.13683006,0.9138781
+n03201208_4529,diningtable,Wooden diningtable with chairs and wall art,Wooden diningtable with chairs and wall art,0.29550612,0.29550612,0.12503171,1.0
+2011_002448,horse,Horse standing near a metal water tank,Horse standing near a metal water tank,0.31537533,0.31537533,0.15993494,1.0
+n04487081_21884,bus,Blue trolleybus driving down a city street,Blue trolleybus driving down a city street,0.31726965,0.31726965,0.15923604,1.0
+2009_005158,cat,Tabby cat sitting on wooden floor,Tabby cat sitting on wooden floor,0.30199417,0.30199417,0.14744051,0.99999994
+001852,sheep,Two sheep standing on grassy ground,Sheep with large horns on rocky terrain,0.30462918,0.30705845,0.2110171,0.90945
+2010_002207,aeroplane,Aeroplane flying low against clear sky,Aeroplane being towed on airport runway,0.25657013,0.2646876,0.15330614,0.9125913
+006338,train,Red double-decker train at a modern station,Red double-decker train at a modern station,0.32521054,0.32521054,0.16289803,1.0
+n04344873_604,sofa,White sofa with cushion on studio floor,White sofa with cushion on studio floor,0.32880133,0.32880133,0.14815104,1.0000001
+n03785016_4720,motorbike,Red motorbike parked by a wooden fence,Red motorbike parked beside a sidewalk,0.31412923,0.32302868,0.2962274,0.9620792
+2009_003555,bus,Red double-decker bus beside glass shelter,Red double-decker bus beside glass shelter,0.331363,0.331363,0.13804516,1.0
+n03983396_3518,bottle,Three soda bottles on a metal step stool,Bottle collection displayed on a wooden shelf,0.3355348,0.33760563,0.18622066,0.9089786
+n11939491_6166,flower,White flower growing among dry grass,Flower with white petals surrounded by grass,0.3299386,0.34849972,0.11251818,0.90219367
+n11939491_12773,flower,White flower with yellow center and greenery,White daisy flower with green foliage,0.30112985,0.3515935,0.12328209,0.92497057
+n03792782_32766,bicycle,Black mountain bicycle indoors on red tile floor,Black mountain bicycle indoors on red tile floor,0.30489826,0.30489826,0.13354719,1.0
+2008_001504,person,Person standing by a tree among green leaves,Person standing by a tree among green leaves,0.26049677,0.26049677,0.1329552,1.0
+2009_003569,cow,Cow standing on a roadside with goats,Cow standing on a roadside with goats,0.34438682,0.34438682,0.15523954,1.0
+n11939491_8127,flower,Yellow flower with green blurred surroundings,Yellow flower with green and brown center,0.32779288,0.3325842,0.16569662,0.92094994
+n03785016_21720,motorbike,Black motorbike parked on concrete floor garage,Black bicycle on gray tiled floor,0.29574844,0.30194736,0.13302258,0.87930256
+2008_004410,dog,Dog with a green collar indoors,Dog with beaded collar on asphalt road,0.2570885,0.26289368,0.12016893,0.9187741
+2008_006090,bird,Bird walking on tiled floor with food,Bird walking on tiled floor with food,0.32974774,0.32974774,0.1862978,1.0
+2008_001881,person,Two people bundled up outdoors at night,Two people bundled up outdoors at night,0.3158205,0.3158205,0.09180737,1.0
+2009_003005,aeroplane,Aeroplane flying low against cloudy sky,Aeroplane landing on airport runway grass,0.26240185,0.2712406,0.091321476,0.9023907
+n04344873_754,sofa,Beige sofa beside patterned rug and table,Cream sofa with cushions and patterned rug,0.35131392,0.36909473,0.1509282,0.9367351
+007731,car,Car parked in front of green garage door,Car parked in front of green garage door,0.28668058,0.28668058,0.1836662,0.99999994
+n04099969_1890,chair,Wooden chair with patterned cushion outdoors,Wicker rocking chair on a stone patio,0.29598406,0.3090367,0.075213835,0.89152396
+n02389026_3401,horse,Young horse running on sandy paddock grass,Young horse foal trotting on green grass,0.30296436,0.31409365,-0.003438754,0.9368499
+2008_000373,train,Train covered in bold silver graffiti artwork,Train covered in bold silver graffiti artwork,0.3056738,0.3056738,0.1405307,1.0
+n04344873_2733,sofa,Wooden sofa with checkered fabric cover,Rustic wooden sofa with striped bedding,0.31088,0.31869477,0.11242883,0.9109054
+n03376595_13596,chair,Wooden chair beside a patio table outdoors,Wooden chair among patio tables outside,0.2962173,0.30326396,0.09703416,0.9606501
+005830,car,Rally car speeding on a dirt track,Rally car speeding on a dirt track,0.32053155,0.32053155,0.13252458,1.0
+2009_000845,train,Steam train passing through a rural landscape,Steam train passing through a rural landscape,0.3096922,0.3096922,0.12388247,0.99999994
+n04152593_58519,tvmonitor,tvmonitor displaying city scene above laptop desk,Dual tvmonitor screens on a computer desk,0.2802872,0.2975446,0.15160349,0.9003779
+2008_006394,aeroplane,Aeroplane taxiing near large airport hangar,Aeroplane taxiing near large airport hangar,0.3000914,0.3000914,0.10935144,1.0
+n04344873_38227,sofa,Orange sofa by a white brick wall,Orange sofa with cozy pillows and rug,0.33145744,0.35386577,0.119145885,0.8893675
+n02417914_26383,sheep,Sheep climbing across a rocky slope,Sheep with large horns on rocky terrain,0.28908575,0.31426594,0.23736334,0.9295854
+2008_006258,chair,Ornate wooden chair beside document organizer,Wooden chair with carved backrest among others,0.3328514,0.3385281,0.16845572,0.88991
+n03785016_24816,motorbike,White motorbike parked on brick pathway outdoors,Blue motorbike parked on green grass,0.28106707,0.2850716,0.12820004,0.922883
+n04344873_6795,sofa,Blue sofa beside plastic storage drawers,Plaid sofa with pillows beside a small table,0.31538066,0.33513638,0.13204822,0.8976813
+000842,dog,White dog wearing a gold coat outdoors,White dog wearing a gold coat outdoors,0.29848447,0.29848447,0.17019671,1.0
+2009_003297,cow,Cow grazing on an open grassy field,Cow standing on dry grassy plain,0.30438107,0.32330328,0.1754762,0.937225
+n03785016_5559,motorbike,Yellow motorbike parked on pavement near wall,Yellow motorbike parked on pavement near wall,0.303545,0.303545,0.17683892,1.0
+n03201208_21714,diningtable,Diningtable with wooden chairs on patterned rug,Diningtable set with four chairs and placemats,0.33935875,0.34420356,0.11142461,0.9036114
+n03782006_15254,tvmonitor,tvmonitor on wooden desk near window curtains,Tvmonitor displaying blue screen beside keyboard setup,0.28797626,0.30455178,0.12551343,0.8749189
+n04152593_8252,tvmonitor,Green monochrome tvmonitor displaying a retro computer menu,Vintage tvmonitor displaying green text interface,0.35992998,0.37147635,0.17128718,0.90957713
+n03062245_1115,bottle,Metal bottle on a wooden table,Glass bottle with a metal lid on carpet,0.31093323,0.32667592,0.10034749,0.9341349
+2009_002957,horse,Horse grazing near a wooden fence,Brown horse standing on muddy ground,0.29615647,0.31411535,0.1799874,0.9027334
+n03201208_31029,diningtable,Diningtable with lace cloth and four chairs,Diningtable with lace cloth and four chairs,0.32208797,0.32208797,0.11676281,1.0
+n02389026_6881,horse,Horse and foal together on grassy field,Horse and foal standing on grassy yard,0.30163598,0.30759996,0.1407923,0.96953136
+000781,person,Person gazing upward beside another person,Person gazing upward beside another person,0.25319988,0.25319988,0.17951885,0.99999994
+2009_000532,bus,Green bus driving on a suburban road,Green bus driving on a suburban road,0.32329252,0.32329252,0.12626967,1.0000001
+2011_001508,motorbike,Red motorbike parked inside a garage,Red motorbike parked inside a garage,0.3162752,0.3162752,0.17871763,1.0000001
+005123,train,Green train parked by leafless trees,Green train parked by leafless trees,0.3165735,0.3165735,0.16397437,1.0
+2008_008233,bird,Brown bird with red eye against dark background,Bird with white head near wire fence,0.27925736,0.28341007,0.0852745,0.88608867
+2010_002047,cow,Cow resting on green grassy field,Cow lying down in tall green grass,0.34794837,0.35485366,0.121114075,0.9427135
+2011_000982,horse,Horse standing and grazing on grassy field,Young horse standing on green grass,0.32429925,0.34115237,0.15726379,0.9392287
+2008_000581,cat,White cat resting on a concrete floor,White cat with odd eyes on pavement,0.2973709,0.30771324,0.12697895,0.90571725
+2008_001810,bird,Bird with spread wings among tree branches,Bird with spread wings among tree branches,0.2982939,0.2982939,0.13503855,1.0000001
+n04487081_19495,bus,White bus on city street near apartments,Bus parked on city street near buildings,0.31368738,0.3287711,0.14963546,0.9630277
+n03201208_20988,diningtable,Large wooden diningtable with matching chairs,Diningtable with six chairs on wooden floor,0.29609078,0.3343698,0.106183715,0.93466246
+2010_003429,sheep,Sheep standing on lush green grass,Sheep with curled horns standing on grass,0.31421953,0.3307398,0.15011838,0.94054985
+n03792782_8550,bicycle,Bicycle leaning against a red shipping container,Bicycle leaning against a red shipping container,0.3455134,0.3455134,0.20569132,1.0
+2009_004525,person,Person sitting on a bench near buildings,Person sitting on a bench near buildings,0.3036294,0.3036294,0.17647469,1.0
+2008_001075,person,Person with dark hair against a white wall,Person with dark hair against a white wall,0.27816296,0.27816296,0.18297084,1.0000001
+n02412080_3224,sheep,Sheep grazing on dry grassy hillside,Sheep with large horns on rocky terrain,0.2873045,0.33124372,0.14604592,0.9110936
+n03785016_2325,motorbike,Blue motorbike parked by a white wall,Bicycle with blue handlebars near garage doors,0.26488048,0.30914846,0.26324868,0.8956695
+2008_003871,person,Person smiling and flashing peace sign indoors,Person smiling and flashing peace sign indoors,0.29173765,0.29173765,0.2142328,1.0
+n04487081_8949,bus,Bus driving through city street with buildings,Bus parked on city street near buildings,0.2980476,0.331398,0.05314626,0.93789524
+000887,aeroplane,Aeroplane parked inside a large hangar,Aeroplane parked inside a large hangar,0.31005916,0.31005916,0.11389448,1.0
+n02389026_5692,horse,Horse and foal walking on grassy field,Young horse foal trotting on green grass,0.28846675,0.3080579,0.13528939,0.9356476
+2008_001534,person,Two people posing together at an outdoor gathering,Two people standing indoors under ceiling light,0.27951714,0.2842168,0.12570395,0.9014906
+2009_000471,cow,Cow resting on grass beneath another cow,Cow resting on grass beneath another cow,0.33869195,0.33869195,0.20220293,1.0
+n04487081_4612,bus,Bus parked on city street near buildings,Bus parked on city street near buildings,0.30326167,0.30326167,0.06727725,1.0
+001143,cow,Cow standing on grassy field near bush,Cow standing near a wire fence enclosure,0.3174758,0.32831514,0.2294395,0.9008163
+2010_005016,bird,White bird resting on concrete ground,White bird resting on concrete ground,0.29957503,0.29957503,0.13182262,1.0
+n11939491_9997,flower,Purple flower with water droplets among green leaves,Pink flower with water droplets outdoors,0.3110137,0.3157916,0.13874274,0.93549496
+006643,bird,Pink bird perched near a metal fence,Pink bird perched near a metal fence,0.31367263,0.31367263,0.11003932,1.0
+2010_000329,sofa,Beige sofa beside wooden chest and magazines,Brown sofa on carpeted living room floor,0.28659573,0.3145944,0.15735014,0.884047
+2011_000634,cat,Cat sleeping comfortably on a gray couch,Tabby cat resting on a red couch,0.2762799,0.29384995,0.13803206,0.9500036
+2008_004471,person,Person standing by a waterfront railing,Person standing by a waterfront railing,0.30312246,0.30312246,0.16802727,1.0
+2008_000512,bird,White bird standing near tall trees,White bird standing near tall trees,0.2944845,0.2944845,0.10763958,1.0
+2008_000804,aeroplane,Aeroplane parked on a wet airport runway,Aeroplane parked on a wet airport runway,0.31550258,0.31550258,0.12215333,1.0000001
+2008_006629,cat,Cat curled up on a bathroom toilet lid,Cat curled up on a bathroom toilet lid,0.33005643,0.33005643,0.109012455,1.0
+n03376595_8137,chair,Worn yellow chair leaning against a tree,Worn yellow chair leaning against a tree,0.37607387,0.37607387,0.21814758,1.0
+2009_000801,aeroplane,Aeroplane parked on a sunny airstrip,Aeroplane parked on a sunny airstrip,0.29985186,0.29985186,0.15241072,1.0
+2010_001571,dog,Dog wrapped in a brown blanket,Dog wrapped in a brown blanket,0.31121665,0.31121665,0.13307925,1.0
+2009_002725,train,Blue steam train moving along railway tracks,Blue steam train moving along railway tracks,0.30567694,0.30567694,0.2165024,0.99999994
+n03201208_45544,diningtable,Wooden diningtable with six patterned chairs,Diningtable with lace cloth and four chairs,0.32640603,0.33262044,0.10074825,0.92875975
+2009_003481,horse,Horse standing among mossy fallen trees,Three horses grazing and resting near trees,0.31694448,0.32828176,0.22339335,0.9117494
+n03201208_3849,diningtable,Glass diningtable with black chairs on wood floor,Glass diningtable with four cushioned chairs nearby,0.31378084,0.32194215,0.20949659,0.92526
+003772,horse,Horse with colorful saddle on rocky ground,Horse with colorful saddle on rocky ground,0.33206493,0.33206493,0.10475479,1.0
+000835,train,Two colorful trains pass through a rural station,Two colorful trains pass through a rural station,0.32215077,0.32215077,0.106631674,1.0
+002045,car,White sports car displayed in a showroom,White sports car displayed in a showroom,0.3226106,0.3226106,0.14909494,1.0
+2009_005156,bicycle,Bicycle with yellow bag beside wooden chest,Bicycle with yellow bag beside wooden chest,0.35482538,0.35482538,0.16970979,1.0
+2009_001180,horse,White horse with halter against gray wall,White horse with halter against gray wall,0.3347685,0.3347685,0.22867231,0.99999994
+004970,horse,Horse standing among leafless trees outdoors,Brown horse with bridle outdoors,0.2829585,0.3129441,0.119707845,0.88415915
+2010_004116,car,Black car parked on city street,Black vintage car driving on city street,0.2455411,0.27130643,0.11256856,0.9554239
+002576,cow,Cow standing near a barbed wire fence,Cow standing near a wire fence enclosure,0.33583796,0.34322193,0.20567746,0.9567063
+2008_002526,person,Person dancing near a brick wall,Person dancing at a formal indoor event,0.23569578,0.26194513,0.10237367,0.92465615
+n03983396_13209,bottle,Bottle of fruit soda on a store shelf,Bottle of fruit soda on a store shelf,0.3197631,0.3197631,0.095707074,1.0
+n04487081_40921,bus,Orange bus driving on a busy city street,Electric bus on city street with buildings,0.30135334,0.31090513,0.070829,0.92795557
+001879,sofa,Red sofa against white wall with framed art,Red sofa against white wall with framed art,0.35107666,0.35107666,0.1335745,1.0
+n02791124_2173,chair,Red and yellow chair in barber shop,Red and yellow chair in barber shop,0.36677244,0.36677244,0.11550478,1.0
+n02389026_1551,horse,Horse grazing under leafy green tree,Horse grazing under leafy green tree,0.34825712,0.34825712,0.18022804,1.0
+005391,aeroplane,Aeroplane parked on a grassy field,Silver aeroplane displayed on outdoor tarmac,0.2940738,0.3093718,0.09358129,0.91192645
+004416,bird,Red bird standing on tangled vines indoors,Red bird standing on tangled vines indoors,0.3324362,0.3324362,0.13352822,1.0
+2010_004143,motorbike,Blue motorbike parked near a metal shed,Blue motorbike parked on a driveway,0.31262648,0.3257668,0.14386164,0.96012217
+007837,aeroplane,Aeroplane on grassy airfield near hangars,Silver aeroplane displayed on outdoor tarmac,0.28774756,0.29980916,0.10723797,0.9047162
+n04487081_8369,bus,Bus parked beside a tree-lined street,Bus parked beside a tree-lined street,0.31539333,0.31539333,0.14767912,1.0
+n04487081_19981,bus,Red trolley bus on a city street,Red trolley bus on a city street,0.33088642,0.33088642,0.1574039,1.0
+n03791053_24406,motorbike,Classic motorbike parked on grassy field,White motorbike on display at an event,0.28565437,0.2919474,0.14935087,0.9175274
+008222,dog,Dog sitting on grass with fallen leaves,Dog with beaded collar on asphalt road,0.2518402,0.2594358,0.11838774,0.8862449
+2009_001713,aeroplane,Aeroplane flying above green fields and trees,Aeroplane on airport runway with trees nearby,0.2564723,0.278159,0.12663347,0.92059183
+2008_004064,person,Person standing outside near a red house,Person standing outside near a red house,0.26215392,0.26215392,0.15805975,1.0
+007868,cat,Orange cat with white fur outdoors,Orange cat with white fur outdoors,0.30516765,0.30516765,0.09858399,1.0000001
+n02835271_25613,bicycle,Tandem bicycle on green grassy field,Blue tandem bicycle on green grass lawn,0.33900663,0.34061038,0.12875967,0.95275736
+n02835271_42981,bicycle,Tandem bicycle parked by a stone wall,Tandem bicycle parked by a stone wall,0.31014854,0.31014854,0.16888042,0.99999994
+n04487081_34020,bus,Green bus near apartment buildings and shops,Green bus near apartment buildings and shops,0.32912678,0.32912678,0.15210745,0.99999994
+2010_000261,cat,Cat sitting on a sunlit table,Cat sitting by a sunlit window,0.29609296,0.2992506,0.16750272,0.9701724
+2009_003667,aeroplane,Aeroplane flying against a clear blue sky,Aeroplane flying against a clear blue sky,0.28426945,0.28426945,0.11281433,1.0
+003686,tvmonitor,Old Compaq tvmonitor displaying Mac OS X,Old Compaq tvmonitor displaying Mac OS X,0.36398202,0.36398202,0.11609304,1.0
+n03983396_12459,bottle,Bottle with straw beside a blue wall,Bottle with straw beside a blue wall,0.3764863,0.3764863,0.15637197,1.0
+2008_000037,aeroplane,Aeroplane flying high in the clear sky,Aeroplane flying low above grassy airfield,0.29042774,0.32265764,0.129291,0.93540645
+2009_000177,train,Train at a modern glass-covered station,Train at a modern glass-covered station,0.31305656,0.31305656,0.15776601,1.0
+2009_003241,dog,Dog playing in the snow,Dog playing in the snow,0.2975101,0.2975101,0.1193735,1.0
+n02389026_1168,horse,Brown horse standing near a wooden barn,Brown horse standing in a fenced enclosure,0.31944698,0.31945682,0.15414053,0.9396045
+2010_003714,horse,Horse running fast across a dusty paddock,Horse running fast across a dusty paddock,0.34081554,0.34081554,0.1567243,1.0
+n03983396_14387,bottle,Green Mountain Dew bottle lineup on a shelf,Green Mountain Dew bottle lineup on a shelf,0.3196296,0.3196296,0.13554786,1.0
+2009_005031,aeroplane,Aeroplane on airport runway with trees nearby,Silver aeroplane displayed on outdoor tarmac,0.25282615,0.26951954,0.07367805,0.90548176
+n11939491_6422,flower,Yellow flower blooming among green leafy plants,Yellow flower blooming among green leaves,0.32746494,0.33276814,0.14723606,0.97275954
+000670,person,Two people sitting together indoors,Two people sitting together indoors,0.27974278,0.27974278,0.15377441,1.0
+008564,horse,Horse walking on grassy field under blue sky,Horse walking in a fenced grassy area,0.2986946,0.3280764,0.10299305,0.9446535
+003166,cat,Cat lounging on a tiled floor indoors,Gray cat indoors with tan walls,0.28050438,0.28811812,0.17605391,0.88501686
+2008_004752,dog,Dog standing on a sandy beach,Dog standing on a sandy beach,0.29503557,0.29503557,0.20894575,1.0
+n03201208_18434,diningtable,Round diningtable with four wooden chairs,Round diningtable with four wooden chairs,0.34250122,0.34250122,0.19555953,1.0
+2010_005433,motorbike,Blue motorbike parked on a driveway,Blue motorbike parked on a driveway,0.33844995,0.33844995,0.14598686,1.0000001
+n04483307_2979,boat,Sailboat gliding on calm open water,Boat with tall sails on open water,0.3116486,0.32103246,0.130124,0.9300026
+n04152593_63603,tvmonitor,Tvmonitor displaying blue screen beside keyboard setup,tvmonitor on a desk with keyboard and computer,0.2993263,0.33562642,0.15492722,0.8902848
+2010_003725,sheep,Sheep standing by a metal fence,Sheep standing in a wire pen,0.29490387,0.30139762,0.1155187,0.95857614
+n04483307_10156,boat,Passenger boat approaching a sunny harbor dock,Passenger boat approaching a sunny harbor dock,0.27553385,0.27553385,0.13329256,0.99999994
+2009_001537,sheep,Sheep grazing on a grassy hillside,Sheep with large horns on rocky terrain,0.29591843,0.31650886,0.25507268,0.91353166
+n02410509_23735,cow,Cow resting beside a rocky road,Cow resting beside a rocky road,0.3189894,0.3189894,0.20437203,1.0
+n04152593_44196,tvmonitor,Tvmonitor on office desk with files,Two tvmonitor screens on a cluttered desk,0.29852352,0.32956672,0.14329733,0.9130182
+002733,car,White car displayed on a modern showroom floor,White car displayed on a modern showroom floor,0.30841166,0.30841166,0.13158122,1.0
+n02835271_24771,bicycle,Yellow tandem bicycle against a brick wall,Bicycle with yellow rims on a red mat,0.32986355,0.3330186,0.12121868,0.8905726
+008511,bicycle,Bicycle with bamboo frame near a wall,Bicycle with bamboo frame near a wall,0.31681323,0.31681323,0.13790734,1.0
+n03782006_10567,tvmonitor,Rows of old tvmonitor screens on shelves,Rows of old tvmonitor screens on shelves,0.3192761,0.3192761,0.08604133,1.0
+n03095699_7497,boat,Container boat sailing on open water,Boat carrying cargo containers on open water,0.29386467,0.31219274,0.13716,0.9388226
+n03782006_15613,tvmonitor,Dual tvmonitor screens on a computer desk,Dual tvmonitor screens on a computer desk,0.320193,0.320193,0.12318742,1.0
+000946,train,Modern train arriving at covered station platform,Modern train arriving at covered station platform,0.30361062,0.30361062,0.15758559,1.0000001
+2010_001240,cat,Cat with green eyes lying on paper,Gray cat indoors with tan walls,0.31622988,0.31899506,0.14532195,0.86903995
+006326,car,Silver car parked in a tree-lined lot,Car parked in front of green garage door,0.24050191,0.2645663,0.12722105,0.90526104
+n03376595_2809,chair,Striped folding chair on carpeted floor,Striped folding chair on carpeted floor,0.32944614,0.32944614,0.10879502,1.0
+n03782006_5705,tvmonitor,tvmonitor on a cluttered wooden desk,Three tvmonitors on a corner desk workspace,0.28564993,0.30404037,0.13860628,0.9042091
+2009_005024,train,Train traveling through a rural wooded area,Passenger train approaching through forested tracks,0.28784683,0.30518368,0.13457379,0.929015
+n03782006_15631,tvmonitor,Old tvmonitor screens stacked against the wall,Multiple tvmonitors surrounded by old computers,0.3199284,0.3297992,0.14192224,0.90199757
+n11939491_42468,flower,Yellow flower with green leafy surroundings,Yellow flower with green and brown center,0.27696326,0.3007668,0.1324953,0.91819835
+n11939491_6746,flower,Orange flower with soft green surroundings,Orange flower with soft green surroundings,0.30431196,0.30431196,0.14487621,1.0
+n11939491_48844,flower,White flower with yellow center among green leaves,White daisy flower surrounded by green grass,0.3054213,0.33510023,0.19412547,0.90285903
+2010_001000,cow,Brown and white cow standing with herd,Two cows harnessed together on farmland,0.27314138,0.29239875,0.24703737,0.88647217
+2010_005522,dog,Dog standing on seaweed covered beach sand,Dog standing on seaweed covered beach sand,0.34768042,0.34768042,0.1530468,1.0
+n03201208_30028,diningtable,Diningtable with wooden chairs and tiled floor,Diningtable with six chairs on wooden floor,0.3125798,0.34583122,0.13590935,0.955206
+n04487081_4029,bus,Orange city bus driving along a leafy street,Bus parked on a paved street plaza,0.28294516,0.30100578,0.12049615,0.91894555
+002276,bird,Bird with large beak perched on branch,Colorful bird standing on a wooden branch,0.29344988,0.2950539,0.1369835,0.90759903
+n02417914_39371,sheep,Sheep grazing among rocks and bushes,Sheep with large horns on rocky terrain,0.27069962,0.32197016,0.15538107,0.9147688
+n03201208_28578,diningtable,Diningtable with red chairs and modern lamps,Diningtable with red chairs and modern lamps,0.27480596,0.27480596,0.13341075,1.0
+n04344873_14569,sofa,White sofa with four pillows beside window,White sofa with four pillows beside window,0.30511504,0.30511504,0.12297197,1.0
+009681,aeroplane,Aeroplane on grassy field near trees,Aeroplane landing on a grassy runway,0.31580994,0.3303944,0.12471633,0.9514047
+n02389026_3388,horse,Young horse standing on green grass,Young horse foal trotting on green grass,0.30607027,0.31147355,0.14414614,0.9546603
+n04344873_7228,sofa,Wooden sofa with colorful cushions and pillows,Wooden sofa with colorful cushions and pillows,0.28869832,0.28869832,0.15284799,1.0
+2008_008424,aeroplane,Aeroplane taxiing on runway near buildings,Aeroplane taxiing on runway near buildings,0.30690452,0.30690452,0.12189737,1.0
+2008_002033,dog,Dog running through water with tennis ball,Dog running through water with tennis ball,0.35244298,0.35244298,0.13758987,1.0
+2008_000902,person,Person in a crowd wearing a coat,Person in a crowd wearing a coat,0.29240537,0.29240537,0.16550228,1.0000001
+n03791053_10464,motorbike,Motorbike parked by a concrete wall,Motorbike parked on cobblestone sidewalk,0.28252864,0.30786917,0.06262112,0.9296214
+n04344873_14637,sofa,White sofa with pillow near glass walls,White sofa with pillow near glass walls,0.33409947,0.33409947,0.13908735,1.0
+n03785016_1025,motorbike,Red motorbike parked on a paved walkway,Red motorbike parked on a paved walkway,0.31049964,0.31049964,0.10946749,1.0
+n04487081_39774,bus,Bus traveling down a tree-lined street,Bus turning on a street near tall trees,0.3000781,0.31563425,0.13105209,0.9248028
+n03095699_21731,boat,Cargo boat loaded with containers on water,Large container boat passing near city shoreline,0.27871072,0.3063839,0.14946306,0.891698
+n11939491_11909,flower,White flower with yellow center among green leaves,White daisy flower with green foliage,0.2865929,0.3301038,0.14221178,0.92898595
+n02422699_817,sheep,Sheep standing alert in dry grass,Bird standing on grassy ground near bushes,0.22532138,0.27437732,0.12470536,0.90520066
+2009_000068,horse,Horse walking on snowy ground near mountains,Horse walking in snowy fenced yard,0.2910878,0.3071711,0.13224155,0.9308596
+n04487081_5397,bus,Two city buses on a sunny street,Two city buses on a sunny street,0.30742472,0.30742472,0.20265302,1.0
+n03095699_28756,boat,Container boat carrying cargo on calm water,Container boat carrying cargo on calm water,0.3089665,0.3089665,0.14012513,1.0
+2008_003984,person,Person with costume accessories against brick wall,Person with costume accessories against brick wall,0.2810591,0.2810591,0.073494576,0.99999994
+n03095699_8455,boat,Boat carrying colorful containers on the ocean,Container boat loaded with cargo at sea,0.29321116,0.3278119,0.14886607,0.91706824
+007376,bus,Bus driving past tall city buildings,Electric bus on city street with buildings,0.2586456,0.31149396,0.10967981,0.9168753
+2008_000464,cat,Cat sitting on a windowsill indoors,Gray cat indoors with tan walls,0.30311474,0.31698355,0.17994179,0.8843337
+n04487081_161,bus,Bus turning on a city street with apartments,Bus parked on a paved street plaza,0.30934444,0.3231805,0.11167754,0.9139423
+004972,bird,Bird perched on a wire against beige sky,Bird perched on a wire against beige sky,0.29898757,0.29898757,0.089247204,1.0
+n04483307_7895,boat,Sailboat gliding on calm water near shore,Boat with tall sails on open water,0.26654834,0.31104732,0.13040626,0.91397905
+2009_003913,dog,Dog wearing blue outfit beside red bag,Dog wearing blue outfit beside red bag,0.26394615,0.26394615,0.09382418,0.99999994
+2010_000324,person,Person in blue hoodie cooking outdoors,Person in blue hoodie cooking outdoors,0.36313277,0.36313277,0.119017005,1.0
+n03201208_54612,diningtable,Wooden diningtable surrounded by elegant chairs,Wooden diningtable with eight carved chairs,0.2894159,0.34721226,0.25484848,0.9537175
+2009_001457,horse,Horse standing on a green grassy field,White horse with halter against gray wall,0.2882086,0.31920645,0.07633347,0.8764152
+2009_001853,train,Train at station with tracks and platform,Freight train passing by a station platform,0.29399067,0.33724827,0.1756301,0.90335476
+n03201208_45174,diningtable,Diningtable with fruit bowl near window,Diningtable with fruit bowl near window,0.3397621,0.3397621,0.14763272,1.0
+2010_005376,horse,Horse wearing halter near snowy wooden fence,Three horses grazing and resting near trees,0.25633603,0.29127198,0.059161346,0.88720304
+2010_001659,dog,Dog running on wet sandy beach,Dog running on wet sandy beach,0.32301107,0.32301107,0.15897721,1.0
+n11939491_14934,flower,Dried flower with curled petals on metal,White and yellow flower on wooden surface,0.30157486,0.30948743,0.18046108,0.8885747
+2008_002458,person,Person smiling with child by a fence,Person sitting on bench with child outdoors,0.27118698,0.27173358,0.14234805,0.9260587
+n04344873_12044,sofa,Pink sofa with a matching canopy cover,Sofa with pillows beside a lamp and dresser,0.2715628,0.27230498,0.106709234,0.8812391
+n04344873_3949,sofa,Wooden sofa with decorative backrest design,Wooden sofa with decorative backrest design,0.32069543,0.32069543,0.24630737,1.0
+n02791124_257,chair,Vintage chair with metal frame by windows,Barber chair with brown leather and wood,0.30555207,0.37647235,0.18979052,0.89557713
+n03792782_4222,bicycle,Black bicycle with red tires on pavement,Black mountain bicycle indoors on red tile floor,0.3001365,0.31784028,0.10312487,0.9036679
+005171,boat,Boat sailing near coastal hills and mountains,Large boat docked near a calm shore,0.26412892,0.2808488,0.16959105,0.90877515
+n02410509_771,cow,Cow herd walking along forest road,Cow herd walking along forest road,0.2566377,0.2566377,0.13287035,0.99999994
+2011_000457,sofa,Floral patterned sofa with colorful upholstery,Floral patterned sofa with colorful upholstery,0.2971171,0.2971171,0.15613459,1.0
+004045,sofa,Beige sofa near table and green plant,Beige sofa with dark wooden armrests,0.31059596,0.3318841,0.19463232,0.9031333
+n11939491_5379,flower,White flower with yellow center among grass,White daisy flower with green foliage,0.311109,0.35479057,0.08095934,0.9028284
+n02408429_1388,cow,Cow grazing in tall green grass,Cow resting on grass beneath another cow,0.28371507,0.3125483,0.14435717,0.90816313
+n03376595_8398,chair,Wooden chair on a hardwood floor,Wooden chair on a hardwood floor,0.32138726,0.32138726,0.088225186,1.0
+007033,aeroplane,Aeroplane on wet runway near grass field,Silver aeroplane displayed on outdoor tarmac,0.25066516,0.29100996,0.12977508,0.90224946
+n11939491_5584,flower,Yellow flower bloom against a dark backdrop,Yellow flower with green and brown center,0.29030833,0.30802143,0.15072961,0.884271
+2009_004579,bottle,Tall sake bottle with floral label nearby box,Tall sake bottle with floral label nearby box,0.32756898,0.32756898,0.18427345,1.0
+n11939491_9525,flower,White flower surrounded by green leaves,White daisy flower with green foliage,0.306625,0.35260677,0.13132392,0.94267774
+n02389026_218,horse,Horse standing in tall grassy field,Young horse running on sandy paddock grass,0.29431957,0.33044368,0.1711493,0.9138574
+n03201208_15246,diningtable,Glass diningtable surrounded by wooden chairs,Glass diningtable with four cushioned chairs nearby,0.30355763,0.32928377,0.16207418,0.9415653
+n11939491_8902,flower,White daisy flower surrounded by green grass,White daisy flower surrounded by green grass,0.34059355,0.34059355,0.14218555,1.0
+003514,bird,White bird perched beside green bird indoors,White bird perched beside green bird indoors,0.3071018,0.3071018,0.28384086,1.0
+n03782006_2624,tvmonitor,tvmonitor displaying code beside a laptop,Two tvmonitor screens on a cluttered desk,0.27530834,0.30233276,0.15111507,0.88396525
+2010_000557,bicycle,Bicycle with orange pannier on wooden floor,Bicycle with orange pannier on wooden floor,0.3631407,0.3631407,0.09373604,1.0
+000198,train,Vintage train on curved rural railway tracks,Passenger train approaching through forested tracks,0.29297093,0.32034075,0.15495363,0.8964946
+008370,bird,Colorful bird standing on a wooden branch,Colorful bird standing on a wooden branch,0.3407114,0.3407114,0.088207334,1.0
+2010_002853,person,Person smiling inside an airplane cockpit,Person smiling inside an airplane cockpit,0.31908756,0.31908756,0.102596134,1.0
+005066,bus,Tourist bus parked near tall green trees,Tourist bus parked near tall green trees,0.29415694,0.29415694,0.12066727,1.0
+n04099969_4902,chair,Wicker rocking chair on patterned carpet,Wicker rocking chair on a garden patio,0.33731705,0.3426787,0.23739274,0.93707407
+004025,bird,Black bird standing on grassy ground,Black bird standing on grassy ground,0.31999046,0.31999046,0.108870946,1.0000001
+2009_001390,aeroplane,Aeroplane parked on airport tarmac,Silver aeroplane displayed on outdoor tarmac,0.27640435,0.3092032,0.09812945,0.9210861
+n04099969_2758,chair,Yellow chair on a wooden deck outdoors,Yellow chair on a wooden deck outdoors,0.3309145,0.3309145,0.12971205,1.0
+2008_007415,chair,Floral upholstered chair beside a flower vase,Two patterned chairs on a carpeted floor,0.3271437,0.33197844,0.12825085,0.8796335
+n04152593_25630,tvmonitor,Tvmonitor displaying a forest scene above keyboard,Old Compaq tvmonitor displaying Mac OS X,0.34540644,0.3533975,0.17387861,0.8610935
+2008_005977,cat,Cat lounging on a wooden ledge,Tabby cat sitting on wooden floor,0.29496247,0.2961973,0.17378083,0.923852
+n02410509_1538,cow,Cow grazing on dry ground near trees,Brown horse standing on muddy ground,0.26189655,0.30726343,0.19709224,0.9110894
+n03376595_9800,chair,Beige folding chair on carpeted floor,Beige folding chair on carpeted floor,0.34788287,0.34788287,0.21653783,1.0
+n03201208_45974,diningtable,Large wooden diningtable surrounded by wooden chairs,Large wooden diningtable with matching chairs,0.2746609,0.30366883,0.15077955,0.9621248
+2008_008636,dog,Dog standing alert on green grass,Dog standing on a grassy field,0.284689,0.3039373,0.17923203,0.9501213
+006694,train,Steam train behind a stone wall,Steam train behind a stone wall,0.32044172,0.32044172,0.15415557,1.0
+2008_004427,dog,Fluffy dog standing on wet sidewalk,Fluffy dog standing on wet sidewalk,0.36194873,0.36194873,0.14788896,1.0
+2008_003287,person,Person walking through a forest of tall trees,Person walking through a forest of tall trees,0.30400938,0.30400938,0.08817126,1.0
+n02422699_4345,sheep,Sheep standing alert in dry grassy field,Brown horse standing in a fenced enclosure,0.21595109,0.2625632,0.17985949,0.8897242
+n04099969_1805,chair,Wooden chair with cushion on patterned cloth,Wooden chair with cushion on patterned cloth,0.35288393,0.35288393,0.15349102,1.0
+n03983396_4605,bottle,Red lemonade bottle on a grocery shelf,Red lemonade bottle on a grocery shelf,0.30445603,0.30445603,0.11852504,1.0
+001863,car,Rally car racing on a dirt track,Rally car speeding on a dirt track,0.2921386,0.30125058,0.096472554,0.9787226
+2008_002677,person,Two people dressed formally beside a brick wall,Two people dressed formally beside a brick wall,0.31279004,0.31279004,0.12429808,1.0
+n02389026_9888,horse,Horse standing near a wooden fence,Brown horse standing in a fenced enclosure,0.2868693,0.31081125,0.17742616,0.9349278
+2009_003185,train,Train passing by trees and power lines,Train covered in bold silver graffiti artwork,0.24240693,0.2918192,0.12572466,0.8677535
+2008_003015,person,Person sitting indoors near a window,Person with dark hair against a white wall,0.25905782,0.265184,0.16913131,0.89198166
+n02835271_1055,bicycle,Tandem bicycle parked beside green bushes,Bicycle with yellow rims on a red mat,0.298799,0.31429416,0.1559057,0.877428
+n02422699_38516,sheep,Sheep grazing on green grassy field,Three horses grazing in a grassy field,0.20873335,0.24456936,0.109494165,0.95701474
+000182,person,Person sitting on a tan leather couch,Person sleeping on a couch with blankets,0.21333559,0.23788667,0.15126446,0.93514866
+004278,aeroplane,Aeroplane on display beside modern building,Silver aeroplane displayed on outdoor tarmac,0.3088759,0.32270098,0.13215172,0.91646254
+005924,car,Boxy car with open doors at auto show,Boxy car with open doors at auto show,0.33617413,0.33617413,0.17948529,1.0
+007717,bottle,Wine bottle on a wooden table,A wine bottle on a white table,0.2662517,0.27768457,0.15998533,0.9627508
+n03792782_6159,bicycle,Red bicycle leaning against a white wall,Bicycle with yellow rims on a red mat,0.284826,0.31370908,0.13640384,0.8885199
+006294,aeroplane,Aeroplane on runway with grassy field,Aeroplane taxiing on green grass runway,0.27846682,0.28290805,0.08146824,0.9488852
+n02389026_15566,horse,Horse resting peacefully on green grass,Horse resting peacefully on green grass,0.32486275,0.32486275,0.1527425,1.0
+002891,train,Green steam train traveling through lush countryside,Black train engine on gravel railway tracks,0.28860188,0.31065056,0.20020641,0.88592535
+2008_005272,dog,Dog in colorful costume on pavement,Dog in colorful costume on pavement,0.31444255,0.31444255,0.10949299,1.0
+2008_001070,dog,Dog on leash sitting near stone ledge,Dog on leash sitting near stone ledge,0.30123734,0.30123734,0.17452127,1.0
+001694,cat,Cat resting on a green chair,Cat sitting on a windowsill indoors,0.2933481,0.2977566,0.18619561,0.9228059
+001542,cat,Tabby cat resting on a red couch,Tabby cat resting on a red couch,0.33500794,0.33500794,0.0790133,1.0
+n02422106_3940,sheep,Sheep standing on dry grassy field,Three horses grazing and resting near trees,0.16855764,0.26862115,0.12441586,0.89367557
+009305,bicycle,Bicycle parked beside a white wall,Tandem bicycle against a plain white wall,0.33568436,0.34120178,0.24641733,0.9358334
+2011_000012,train,Freight train moving through snowy forest tracks,Canadian train stopped near a forested area,0.31222552,0.32001817,0.16587473,0.9044503
+n02835271_5785,bicycle,Tandem bicycle parked beside a tree,Tandem bicycle on a gravel surface,0.33739775,0.33892065,0.19954099,0.9441009
+n02415577_2177,sheep,Sheep standing on a rocky hillside,Sheep standing among large gray rocks,0.29976258,0.31223136,0.17107838,0.93229574
+n04099969_72,chair,Wooden chair on carpeted living room floor,Wooden rocking chair on hardwood floor,0.30243903,0.30969054,0.23998728,0.9327229
+000844,car,Race car speeding on a winding track,Race car speeding on a racetrack,0.2562979,0.2600638,0.13644989,0.96282446
+n03095699_138,boat,Boat carrying containers near a large bridge,Large container boat passing near city shoreline,0.28292698,0.308147,0.15402527,0.91495776
+n02408429_12562,cow,Cow standing on dry grassy plain,Sheep with large horns on rocky terrain,0.2842141,0.30209088,0.13983431,0.8878716
+n03201208_2588,diningtable,Wooden diningtable with four cushioned chairs,Round diningtable with four wooden chairs,0.32942832,0.3377742,0.10702263,0.953793
+009226,tvmonitor,tvmonitor on desk with keyboard and book,Two tvmonitor screens on a cluttered desk,0.29292274,0.29742864,0.093668036,0.90538985
+n02408429_10342,cow,Cow standing in a muddy grassy field,Cow grazing among tall green grass,0.2785724,0.29265243,0.20026447,0.9106621
+n04487081_27439,bus,Bus turning on a street near tall trees,Two city buses on a sunny street,0.28701687,0.29192436,0.13234326,0.9104258
+n04487081_13159,bus,Bus turning on a quiet suburban street,Bus parked on a paved street plaza,0.29357052,0.30475235,0.22353013,0.92014974
+n02422699_6507,sheep,Sheep grazing near thorny bushes,Two horses play on grassy field,0.24199873,0.264386,0.15124418,0.89179486
+2008_004480,dog,Dog lying on a plaid bedspread,Dog lying on a plaid bedspread,0.3450267,0.3450267,0.12055074,1.0
+n03782006_40413,tvmonitor,tvmonitor floating partially submerged in water,tvmonitor floating partially submerged in water,0.32756072,0.32756072,0.1770533,1.0000001
+000469,car,Old green car parked on snowy ground,Old green car parked on snowy ground,0.34221518,0.34221518,0.18429777,1.0
+2008_007947,car,Blue rally car displayed on showroom floor,Blue rally car displayed on showroom floor,0.32373405,0.32373405,0.12000467,1.0
+002292,bicycle,Bicycle parked by a weathered metal door,Bicycle parked by a weathered metal door,0.33984447,0.33984447,0.13945785,1.0
+2010_005005,person,Two people sitting together on a bus,Two people sitting together on a bus,0.2926453,0.2926453,0.11264636,1.0000001
+n04099969_2610,chair,Wooden chair with carved backrest among others,Wooden chair with carved backrest among others,0.30793002,0.30793002,0.13796079,1.0
+004871,train,Maroon train traveling on city railway tracks,Maroon train traveling on city railway tracks,0.32761583,0.32761583,0.14446704,1.0
+008851,tvmonitor,Tvmonitor on a cluttered computer desk,Two tvmonitor screens on a cluttered desk,0.30932218,0.32335073,0.14499752,0.95400184
+n03983396_9776,bottle,Colorful bottle sculptures displayed in an art gallery,Colorful bottle sculptures displayed in an art gallery,0.32874042,0.32874042,0.09324894,1.0
+n03785016_25207,motorbike,Red motorbike parked on sunny pavement,Red motorbike parked beside a sidewalk,0.28647047,0.30307078,0.12923414,0.9543649
+008116,sheep,Sheep grazing and standing on green field,Two sheep standing on grassy ground,0.30215746,0.31436396,0.099741556,0.9278735
+2010_002876,cat,Cat sleeping on a pink polka dot blanket,Cat sleeping on a pink polka dot blanket,0.31609347,0.31609347,0.0834839,1.0
+009191,motorbike,Motorbike parked on a rural paved road,Motorbike parked on a rural paved road,0.27666458,0.27666458,0.1203036,1.0
+n04344873_3022,sofa,Rustic wooden sofa with striped bedding,Rustic wooden sofa with striped bedding,0.27649695,0.27649695,0.13430442,1.0
+n02412080_21153,sheep,Sheep standing in tall grassy field,Sheep with curled horns standing on grass,0.3138844,0.32513672,0.12039864,0.9306241
+2010_003385,car,Car on display under bright lights,Futuristic car with open gullwing door display,0.2702611,0.27140474,0.111582935,0.85352004
+2008_002767,dog,Dog lying on carpet near wall,Dog with a green collar indoors,0.26878592,0.28104138,0.110778764,0.88597983
+n03201208_6498,diningtable,Elegant diningtable set in a vintage room,Diningtable with polka dot cloth and chairs,0.25844455,0.30913833,0.17301014,0.88238186
+2008_001344,person,Person smiling beside a kitchen counter,Person smiling beside a kitchen counter,0.2993939,0.2993939,0.14278041,0.99999994
+2008_004973,bird,Bird gliding on calm blue water,Black bird swimming on calm water,0.2559017,0.2869771,0.11812889,0.9475214
+n03062245_2115,bottle,Red glass bottle with silver metal lid,Red glass bottle with silver metal lid,0.32482836,0.32482836,0.2206606,0.99999994
+n03983396_5611,bottle,Bottle of Fanta and Coca-Cola on table,Bottle of soda among other glass bottles,0.26847756,0.3093611,0.078172706,0.90472937
+n04344873_16444,sofa,Gray sofa near kitchen and colorful painting,Gray sofa near kitchen and colorful painting,0.33885342,0.33885342,0.22614902,1.0000001
+n04099969_21118,chair,Wooden rocking chair with blue cushion upholstery,Wooden rocking chair with blue cushion upholstery,0.33202246,0.33202246,0.124242656,1.0
+2008_000775,person,Person sleeping on a couch with blankets,Person feeding baby with orange food,0.231179,0.26684898,0.10646671,0.90162945
+n03782006_8136,tvmonitor,tvmonitor on a cluttered wooden desk setup,Dual tvmonitor screens on a computer desk,0.2950333,0.29628438,0.1411629,0.89741504
+007211,motorbike,Motorbike parked on mountain roadside,Motorbike parked on mountain roadside,0.29159662,0.29159662,0.18171093,0.99999994
+002916,person,Person standing beside tall floor lamp,Person standing beside tall floor lamp,0.32330883,0.32330883,0.12213643,1.0
+2010_001647,cat,Orange cat lying on dry grass,Orange cat lying on dry grass,0.352701,0.352701,0.13779947,1.0
+n03095699_471,boat,Boat carrying containers sailing on open water,Boat carrying containers sailing on open water,0.3185571,0.3185571,0.1547849,0.9999999
+n02389026_27212,horse,Horse running on grassy field near houses,Horse and foal standing on grassy yard,0.28885907,0.29418483,0.16598168,0.9344646
+n03983396_2242,bottle,Bottle of soda among other glass bottles,Bottle of soda among other glass bottles,0.2965372,0.2965372,0.08157167,1.0
+n04344873_16080,sofa,Sofa with green leaf pillows beside table,Marble diningtable with white chairs and tiles,0.27392912,0.2758662,0.1090626,0.8673756
+n03785016_8099,motorbike,Red motorbike parked on green grass,Red motorbike parked on a paved walkway,0.27145666,0.2970994,0.08781732,0.95563185
+n02389026_3305,horse,Young horse walking on green grassy field,Young horse foal trotting on green grass,0.2461279,0.28382966,0.099117935,0.94181776
+2008_008583,train,Canadian train stopped near a forested area,Canadian train stopped near a forested area,0.3264736,0.3264736,0.16109367,1.0
+n03095699_10446,boat,Boat carrying colorful shipping containers on water,Container boat loaded with cargo at sea,0.2991705,0.3158652,0.18035325,0.90517956
+n11939491_4544,flower,Purple flower standing out against green grass,Purple flower with green blurred surroundings,0.30913797,0.3156237,0.13844739,0.92173743
+n04099969_1636,chair,Wooden rocking chair with a colorful blanket,Wooden rocking chair with a colorful blanket,0.31667215,0.31667215,0.11736968,1.0
+n02408429_5761,cow,Group of black cows standing on grass,Group of black cows standing on grass,0.33606955,0.33606955,0.20586056,1.0
+2009_005232,aeroplane,Vintage aeroplane displayed inside a museum,Aeroplane displayed in a large hangar,0.31858855,0.3409397,0.10139713,0.9352112
+2010_001522,sheep,Sheep standing on grassy hill near tree,Sheep standing on grassy hill near tree,0.32581893,0.32581893,0.12829718,1.0
+2011_000454,sheep,Sheep grazing on a green hillside pasture,Sheep grazing on a green hillside pasture,0.32793522,0.32793522,0.13828179,1.0
+000645,bird,Yellow bird perched on a cage branch,Yellow bird perched on a cage branch,0.30755576,0.30755576,0.09580088,1.0
+005013,train,Red and cream train at rural station platform,Red double-decker train at a modern station,0.29448706,0.3003504,0.13800916,0.90161574
+n04344873_16831,sofa,Plaid sofa with mismatched cushions on wood floor,Plaid sofa with mismatched cushions on wood floor,0.35430378,0.35430378,0.13552716,1.0
+n03782006_15046,tvmonitor,Vintage tvmonitor displaying green text interface,Vintage tvmonitor displaying green text interface,0.35313907,0.35313907,0.17398702,1.0
+n04344873_17545,sofa,Rustic wooden sofa with green cover,Sofa with green leaf pillows beside table,0.29302078,0.3013296,0.106065795,0.88814354
+n04152593_6384,tvmonitor,Broken tvmonitor smashed with a hammer outdoor,Broken tvmonitor smashed with a hammer outdoor,0.31552964,0.31552964,0.13697037,1.0
+2008_005303,bird,Bird perched on a wooden post outdoors,Bird perched on a wooden post outdoors,0.27632987,0.27632987,0.18190125,1.0000001
+n02417914_26,sheep,Sheep standing on rocky grassy hillside,Sheep with large horns on rocky terrain,0.2659653,0.29833522,0.14953049,0.92092633
+n03983396_24815,bottle,Root beer bottle against a brick wall,Root beer bottle against a brick wall,0.3425573,0.3425573,0.12900428,1.0
+007933,bicycle,Bicycle with yellow accents near brick wall,Yellow tandem bicycle against a brick wall,0.32519552,0.32805938,0.13705315,0.92554766
+2008_003827,motorbike,Red Coca-Cola motorbike on a shiny platform,Red Coca-Cola motorbike on a shiny platform,0.3575076,0.3575076,0.07273157,1.0
+2009_004334,bird,Bird flying near tree branches at dusk,Bird flying near tree branches at dusk,0.3076633,0.3076633,0.1358296,1.0
+2011_001414,cat,Cat resting on a brown leather couch,Cat resting on a brown leather couch,0.30880746,0.30880746,0.1279678,1.0
+2009_005102,dog,Dog standing on tiled floor near wooden doors,Dog in a sweater standing on table,0.27033198,0.28457975,0.20212796,0.90484023
+n03201208_29131,diningtable,Wood diningtable with striped cushioned chairs,Diningtable with four chairs on wood floor,0.2999682,0.3227466,0.18140003,0.9137404
+2009_002499,cat,Cat with closed eyes under indoor lights,Cat face close-up with long whiskers,0.27436692,0.27984822,0.15968147,0.88479936
+008684,car,Race car speeding on a racetrack,Race car speeding on a winding track,0.27385896,0.27512926,0.12230789,0.96282446
+n03095699_5951,boat,Boat carrying containers on calm ocean water,Boat carrying cargo containers on open water,0.31341022,0.32631424,0.14880306,0.9587206
+n04487081_1702,bus,Bus driving on a city street downtown,Bus parked on city street near buildings,0.3258464,0.34265083,0.16439569,0.93071187
+n03095699_18715,boat,Boat carrying shipping containers on open water,Container boat carrying cargo on calm water,0.28810418,0.30276132,0.30182695,0.9331561
+001126,aeroplane,Aeroplane flying high in clear sky,Aeroplane flying low over residential area,0.27886316,0.28115213,0.09517129,0.9408733
+2010_000036,car,Black car parked near palm trees,Black car parked near palm trees,0.27181575,0.27181575,0.13897069,1.0
+n03782006_9891,tvmonitor,tvmonitor and keyboard on a wooden desk,Old Compaq tvmonitor displaying Mac OS X,0.31275308,0.34801728,0.12224674,0.8667128
+2011_001964,bus,Bus parked on a paved street plaza,Bus turning near decorative archway structure,0.29914892,0.31083,0.20391376,0.8919206
+004312,sheep,Sheep standing on dry grass and dirt,Sheep with curled horns standing on grass,0.2826652,0.3023598,0.24164382,0.9296477
+2009_003523,tvmonitor,tvmonitor displaying error screen on airplane seat,tvmonitor displaying error screen on airplane seat,0.3619545,0.3619545,0.29982334,1.0000001
+004425,bird,Colorful bird perched on a tree branch,Colorful bird standing on a wooden branch,0.30796853,0.30964786,0.124871105,0.9641283
+n03782006_32434,tvmonitor,Dual tvmonitor setup on wooden computer desk,Dual tvmonitor screens on a computer desk,0.28481352,0.33007386,0.23349695,0.95704013
+008266,train,Vintage train passing through a green area,Maroon train traveling on city railway tracks,0.2721939,0.29488122,0.16549742,0.90446234
+2010_001327,sofa,Floral patterned sofa with plush cushions,Sofa with green leaf pillows beside table,0.31181923,0.32621288,0.17352888,0.8797414
+2008_008541,cow,Cow standing near a wire fence enclosure,Cow standing near a wire fence enclosure,0.34030157,0.34030157,0.10968395,1.0
+2010_001356,sheep,Sheep standing on snow-covered ground,Sheep standing on snow-covered ground,0.30044013,0.30044013,0.1320535,1.0
+n04344873_5908,sofa,Orange sofa with pillows against yellow wall,Orange sofa with pillows against yellow wall,0.32612276,0.32612276,0.106734134,1.0
+n11939491_9245,flower,White daisy flower surrounded by green leaves,White daisy flower with green foliage,0.33178675,0.3408156,0.16810775,0.97050995
+007973,aeroplane,Aeroplane flying above clear blue ocean,Aeroplane flying above clear blue ocean,0.253068,0.253068,0.10205714,1.0
+n03785016_10909,motorbike,Red and silver motorbike on a white surface,Red and silver motorbike on a white surface,0.29509467,0.29509467,0.21440119,1.0
+n03201208_46701,diningtable,Wooden diningtable with six matching chairs,Wooden diningtable with four cushioned chairs,0.33445725,0.33546856,0.1033098,0.96233994
+000179,boat,Boat with tall sails on open water,Boat with tall masts sailing on ocean,0.27065882,0.27900153,0.1265357,0.93701434
+n02791124_696,chair,Brown chair on a tiled kitchen floor,Barber chair with brown leather and wood,0.2837901,0.36606026,0.120509595,0.8828687
+2008_006889,motorbike,Green motorbike parked on concrete driveway,Tandem bicycle with bottles on display wall,0.29736692,0.3213182,0.16469678,0.8904274
+2011_001354,cow,Cow resting on green grass near rocks,Cow resting on grass near a lake,0.33037615,0.3336469,0.16786316,0.9615463
+n03201208_10572,diningtable,Wooden diningtable with chairs and cushioned bench,Diningtable with six chairs near large curtains,0.29306686,0.32267672,0.109418094,0.909332
+2008_002988,person,Person sitting on floral patterned couch,Person sitting on floral patterned couch,0.25384128,0.25384128,0.14215502,1.0
+n03201208_26924,diningtable,Round diningtable with four green chairs nearby,Round diningtable with four green chairs nearby,0.34169853,0.34169853,0.12455738,1.0
+n04483307_2684,boat,Sailboat gliding on calm blue water,Boat with tall sails on open water,0.29768175,0.31294864,0.1095593,0.9088012
+000075,dog,Dog running through sunlit grassy field,Dog running through sunlit grassy field,0.32127893,0.32127893,0.18357839,1.0
+n04487081_11955,bus,Bus turning near decorative archway structure,Bus parked on a paved street plaza,0.30184087,0.30244833,0.09774554,0.8919206
+2009_003735,dog,Dog sitting on bright green grass,Dog running through sunlit grassy field,0.30042082,0.31842443,0.12828979,0.9156802
+2010_003774,sheep,Sheep with curled horns standing on grass,Sheep standing together near a metal fence,0.28842962,0.30527997,0.06689289,0.91087556
+2008_008711,bicycle,Bicycle parked beside a metal railing,Black bicycle on gray tiled floor,0.30201313,0.31211644,0.17163649,0.86513585
+2009_002515,horse,Horse walking in a fenced paddock,Horse walking in a fenced grassy area,0.3316458,0.33210683,0.19033834,0.9657292
+n02389026_1209,horse,Horse standing on grassy open field,Horse and foal standing on grassy yard,0.2576025,0.28960818,0.14251569,0.95401835
+n03095699_4539,boat,Boat carrying containers on a wide river,Large container boat passing near city shoreline,0.30438644,0.3356504,0.16011888,0.8928674
+n02410509_6719,cow,Cow standing on grassy fenced pasture,Brown horse standing in a fenced enclosure,0.28833967,0.29713863,0.17411059,0.9325921
+001643,dog,Dog resting on a black futon couch,Dog resting on a black futon couch,0.33137226,0.33137226,0.15041634,1.0
+n02835271_12544,bicycle,Tandem bicycle parked near a wooden fence,Tandem bicycle parked on suburban driveway,0.3166097,0.32040057,0.123420894,0.94346404
+2009_003419,cat,Cat face close-up with long whiskers,Cat face close-up with long whiskers,0.2967943,0.2967943,0.1309672,1.0000001
+n02423022_6392,sheep,Sheep standing on green grassy field,Sheep with large horns on rocky terrain,0.2063142,0.26555,0.0855204,0.9073909
+2009_004129,chair,Blue chair on a wooden deck outdoors,Black folding chair on a wooden deck,0.30046144,0.30689093,0.17501315,0.9577876
+2010_003077,dog,Dog with beaded collar on asphalt road,Dog with beaded collar on asphalt road,0.33884132,0.33884132,0.16118258,1.0
+n02415577_14295,sheep,Sheep standing on a grassy hillside,Two sheep standing on grassy ground,0.27519643,0.31845427,0.17937966,0.95505404
+n04099969_2545,chair,Wooden chair with airplane patterned cushion,Beige folding chair on carpeted floor,0.30221897,0.3412306,0.23766507,0.86852604
+n11939491_7719,flower,White and yellow flower among pink petals,White and yellow flower among pink petals,0.3197861,0.3197861,0.13724919,1.0
+2008_005728,dog,Dog rolling on green grassy field,Dog lying on green grass outdoors,0.30733874,0.3090009,0.14454241,0.9426852
+2010_003240,cat,Gray cats playfully wrestling on soft carpet,Gray cats playfully wrestling on soft carpet,0.3326437,0.3326437,0.1527886,0.9999999
+009869,person,Person wearing a colorful hat in car seat,Person wearing a colorful hat in car seat,0.29889178,0.29889178,0.13675238,1.0
+n11939491_2617,flower,Two white flower daisies among green grass,Two white flower daisies among green grass,0.3529489,0.3529489,0.18950248,1.0
+2010_003251,bicycle,Bicycle parked on a grassy park path,Bicycle resting on a forest trail,0.30259883,0.3079359,0.14152862,0.9510664
+n03376595_14765,chair,Rusty chair by a wire fence outdoors,Rusty chair by a wire fence outdoors,0.30282056,0.30282056,0.15341833,1.0
+n03201208_21641,diningtable,Diningtable with flowers and covered chairs,Diningtable with fruit bowl near window,0.2864944,0.3255009,0.23101144,0.91695356
+2011_002396,train,Black steam train displayed on sunny grass,Black steam train displayed on sunny grass,0.3228743,0.3228743,0.17392284,1.0
+n04344873_1901,sofa,Sofa with checkered cushions on rug,Rustic wooden sofa with striped bedding,0.21231797,0.2856484,0.14627558,0.8859686
+n03095699_14621,boat,Boat carrying containers on open water,Boat carrying containers sailing on open water,0.29680187,0.30583403,0.14256015,0.9838756
+006844,train,Black steam train displayed behind metal fence,Black steam train displayed behind metal fence,0.32403922,0.32403922,0.082307614,1.0
+n03785016_24486,motorbike,Blue motorbike parked on green grass,Blue motorbike parked on green grass,0.3083083,0.3083083,0.2516782,1.0
+001440,bird,Black bird swimming on calm water,Black bird swimming on calm water,0.29168767,0.29168767,0.13059077,1.0
+n03095699_31813,boat,Large cargo boat carrying colorful shipping containers,Large container boat passing near city shoreline,0.3157577,0.32212123,0.10172492,0.89329404
+n11939491_47178,flower,White flower reaching toward clear blue sky,White flower reaching toward clear blue sky,0.32459986,0.32459986,0.17798264,1.0
+n04483307_7787,boat,"Sailboat on a calm, cloudy lake","Sailboat on a calm, cloudy lake",0.30647653,0.30647653,0.07246754,1.0
+2008_005695,boat,Boat with tall masts sailing on ocean,Boat with tall sails on open water,0.30654243,0.31081134,0.14434355,0.93701434
+2011_000269,bird,Bird standing on a stone pavement,Bird standing on a stone pavement,0.28798229,0.28798229,0.087950446,1.0
+n03785016_15442,motorbike,Light blue motorbike parked near a lattice fence,Light blue motorbike parked near a lattice fence,0.29576045,0.29576045,0.18928067,1.0
+004403,bird,Bird perched on a branch near water,Bird perched on a wooden branch,0.3010015,0.30391276,0.11925091,0.96197385
+004388,train,Blue Pan Am Railways train beside building,Blue Pan Am Railways train beside building,0.30709693,0.30709693,0.08796783,1.0
+n03983396_14364,bottle,Bottle lineup of colorful sodas in snow,Bottle lineup of colorful sodas in snow,0.30844185,0.30844185,0.09155691,1.0
+n02835271_5418,bicycle,Tandem bicycle parked on suburban driveway,Tandem bicycle parked on suburban driveway,0.30999058,0.30999058,0.15371472,1.0
+n03785016_7418,motorbike,Motorbike parked on a sunny city street,Two motorbikes parked outside a restaurant,0.27122173,0.289689,0.1755836,0.92305374
+n02422699_2056,sheep,Sheep standing alone on grassy field,Bird standing on grassy ground near bushes,0.19517137,0.25298434,0.1853596,0.9343783
+2009_004033,dog,Dog standing on rippled sand dunes,Dog standing on rippled sand dunes,0.34835505,0.34835505,0.17818588,0.9999999
+2009_001397,bird,Bird standing by a blue swimming pool,Bird standing by a blue swimming pool,0.33731988,0.33731988,0.13357113,1.0
+n03376595_2004,chair,Black folding chair on a wooden deck,Vintage chair with metal frame by windows,0.2984742,0.31659573,0.16109112,0.89440435
+2011_002251,train,Steam train near a maintenance building,Black steam train displayed on sunny grass,0.31227076,0.32397568,0.14157219,0.89884603
+2010_004145,horse,Horse with bridle under cloudy sky,Horse with bridle under cloudy sky,0.31729597,0.31729597,0.10507171,1.0
+2008_003659,cat,Cat sitting by a sunny window,Gray cat indoors with tan walls,0.27064964,0.2932523,0.1483813,0.87986404
+n02835271_14402,bicycle,Tandem bicycle parked beside a blue wall,Bicycle with orange pannier on wooden floor,0.28643313,0.32009035,0.122513354,0.884226
+n03983396_5307,bottle,Vintage soda bottle collection on a wooden shelf,Vintage soda bottle collection on a wooden shelf,0.37182385,0.37182385,0.10165419,1.0
+n03785016_1113,motorbike,Red motorbike parked on quiet roadside grass,Red motorbike parked on quiet roadside grass,0.30132648,0.30132648,0.12228458,0.99999994
+n02389026_8638,horse,Horse and foal walking on grassy field,Horse and foal standing on grassy yard,0.29136074,0.29994166,0.09316482,0.9775748
+2009_004867,bus,City bus parked by trees and sidewalk,Bus parked on a paved street plaza,0.2803364,0.30189145,0.112772085,0.91965055
+2010_002030,bicycle,Bicycle leaning against a white wall indoors,Black bicycle on gray tiled floor,0.2803476,0.30755195,0.08977006,0.8744927
+005202,bird,Bird with red head on tiled ground,Bird with red head on tiled ground,0.3381612,0.3381612,0.104137875,1.0
+2009_000828,boat,Boat floating on calm blue water,Boat with tall sails on open water,0.24598324,0.270718,0.22264913,0.918373
+2010_004357,aeroplane,Aeroplane flying in a clear sky,Aeroplane taxiing near large airport hangar,0.26658243,0.27270928,0.078982964,0.9226203
+006252,dog,Brown dog lying on tiled floor,Fluffy dog standing on wet sidewalk,0.28714412,0.2887483,0.12032862,0.9116182
+n02835271_23683,bicycle,Blue tandem bicycle on green grass lawn,Blue tandem bicycle on green grass lawn,0.31842554,0.31842554,0.10167336,1.0
+n04483307_11047,boat,Sailing boat gliding on open water,Boat with tall sails on open water,0.29384735,0.30195695,0.10128,0.931546
+n03983396_12030,bottle,Bottle assortment on a wooden table,Bottle of soda among other glass bottles,0.23529074,0.29190302,0.1286532,0.8643367
+n02389026_10498,horse,Brown horse standing in a fenced enclosure,Brown horse standing in a fenced enclosure,0.31968665,0.31968665,0.16259721,1.0
+n03376595_6586,chair,Two cushioned chairs on a stone patio,Two cushioned chairs on a stone patio,0.3160664,0.3160664,0.1387227,1.0
+n04152593_44675,tvmonitor,Old tvmonitor on a cluttered desk,tvmonitor on a desk with keyboard and computer,0.30573022,0.34229356,0.12614354,0.9104103
+003262,bottle,Bottle of honey on a rustic windowsill,Bottle of honey on a rustic windowsill,0.38006073,0.38006073,0.16879663,1.0
+2010_001838,dog,Dog standing on a wooden porch deck,Dog standing on a wooden porch deck,0.2833649,0.2833649,0.09989701,1.0
+2010_003300,dog,Two dogs meeting on a dirt path,Two dogs meeting on a dirt path,0.30237713,0.30237713,0.1998241,1.0
+2008_008377,bird,Bird standing alone on grassy field,Bird standing on grassy ground near bushes,0.29203302,0.30427176,0.10582125,0.9540503
+n03376595_4978,chair,Wooden chair among patio tables outside,Wooden chair among patio tables outside,0.30490768,0.30490768,0.09215417,1.0000001
+2008_001479,dog,Brown dog sitting on wooden floor,Brown dog sitting on wooden floor,0.29093328,0.29093328,0.12731764,1.0
+002599,motorbike,Red and white motorbike parked near trees,White motorbike on display at an event,0.27451053,0.29391295,0.17309746,0.92308927
+2009_001562,cat,Gray cat lounging on a purple couch,Gray cat lounging on a purple couch,0.32109928,0.32109928,0.22004884,1.0
+n02835271_6752,bicycle,Blue tandem bicycle against a white sheet,Blue tandem bicycle against a white sheet,0.34776676,0.34776676,0.16651037,1.0
+n02835271_31431,bicycle,Tandem bicycle parked on brick sidewalk,Tandem bicycle parked near a brick building,0.32238707,0.33262163,0.22094761,0.9629355
+n02835271_323,bicycle,Tandem bicycle on a concrete driveway,Tandem bicycle parked on suburban driveway,0.29633507,0.31303504,0.16034952,0.9484004
+2011_000283,train,Blue train arriving at city station tracks,Freight train passing by a station platform,0.26849708,0.2879831,0.15254457,0.90606886
+n11939491_9282,flower,White flower blooming above green leaves,White daisy flower with green foliage,0.26215383,0.32389194,0.15026486,0.92008317
+n04487081_14355,bus,Bus waiting at a city bus stop,Bus turning on a quiet suburban street,0.28962457,0.2973438,0.1775944,0.9095035
+2008_005962,tvmonitor,Large tvmonitor sits on wooden dresser,Old Compaq tvmonitor displaying Mac OS X,0.33039236,0.33990756,0.17775384,0.8584133
+2010_004559,bird,Bird eating from a person's hand outdoors,Bird eating from a person's hand outdoors,0.30002338,0.30002338,0.13261381,1.0
+n02408429_8646,cow,Cow grazing in tall dry grass field,Group of black cows standing on grass,0.2584198,0.26575977,0.12251773,0.9060689
+n11939491_45661,flower,White daisy flower surrounded by green leaves,White daisy flower surrounded by green grass,0.3319465,0.34078392,0.12915409,0.9731687
+n04487081_13902,bus,Bus driving downtown near tall office buildings,Bus parked on city street near buildings,0.2862323,0.31166476,0.18308298,0.9162445
+n02835271_1031,bicycle,Tandem bicycle parked beside a wooden fence,Tandem bicycle parked on a porch,0.31323296,0.33315337,0.183023,0.9631474
+n11939491_9659,flower,Purple flower blooming amid green leafy plants,Purple and white flower with green leaves,0.30647686,0.33623403,0.12961732,0.9196633
+n03201208_19579,diningtable,Glass diningtable with four cushioned chairs nearby,Glass diningtable with four cushioned chairs nearby,0.32704747,0.32704747,0.13452552,1.0
+n03792782_42773,bicycle,Bicycle parked on a paved sidewalk,Bicycle with blue handlebars near garage doors,0.3013621,0.3092966,0.19228177,0.90729094
+2010_005323,car,White car parked under dramatic cloudy sky,White car parked under dramatic cloudy sky,0.27688682,0.27688682,0.13417804,1.0000001
+002439,aeroplane,Silver aeroplane displayed on outdoor tarmac,Silver aeroplane displayed on outdoor tarmac,0.32834473,0.32834473,0.10401895,1.0
+2009_002047,aeroplane,Aeroplane taxiing on airport runway grass nearby,Aeroplane being towed on airport runway,0.2812392,0.306066,0.2390993,0.9391214
+000871,car,Black car parked on a gravel driveway,Black car parked on cobblestone driveway,0.24863817,0.25663286,0.21005826,0.9506318
+n02408429_1526,cow,Cow standing on a path beside green field,Cow grazing on dry ground near trees,0.2755871,0.29281443,0.12141781,0.9173284
+n11939491_26398,flower,White and yellow flower surrounded by grass,White daisy flower surrounded by green grass,0.32705528,0.3469814,0.09060294,0.9489707
+n03983396_4074,bottle,Bottle collection displayed on a wooden shelf,Bottle of soda among other glass bottles,0.29455316,0.3146687,0.13012734,0.88512623
+n03792782_9436,bicycle,Bicycle resting on rocky trail near hills,Bicycle resting on rocky trail near hills,0.2625985,0.2625985,0.13046868,0.99999994
+2010_001607,sheep,Two sheep grazing on green grass,Two sheep grazing on green grass,0.32191235,0.32191235,0.11726025,1.0
+n02389026_10430,horse,Horse and foal standing on grassy yard,Horse and foal standing on grassy yard,0.30383462,0.30383462,0.18497433,1.0
+n03201208_28824,diningtable,Diningtable with metallic decor and wooden chairs,Wooden diningtable with glasses and plates,0.28964004,0.30477408,0.13738197,0.918143
+2008_003519,cat,Cat sitting on a computer tower desk,Cat sitting on a computer tower desk,0.3183515,0.3183515,0.12295786,1.0
+2010_001452,cat,Black cat sitting on carpet near magazines,Black cat sitting on carpet near magazines,0.32563585,0.32563585,0.1409933,1.0
+n11939491_15682,flower,Yellow flower with green and brown center,Yellow flower with green and brown center,0.320498,0.320498,0.15927012,1.0
+2010_000437,aeroplane,Red aeroplane parked on grassy field,Aeroplane on display near park benches,0.31230545,0.31714523,0.104544476,0.91285443
+2008_002999,person,Person wearing festive sweater holding a drink,Person wearing festive sweater holding a drink,0.34013325,0.34013325,0.12485257,1.0
+009360,car,Car parked on a dirt road by trees,Car parked on a dirt road by trees,0.31751505,0.31751505,0.15913276,1.0
+2009_000817,aeroplane,Aeroplane flying against a clear blue sky,Aeroplane taxiing near large airport hangar,0.23965065,0.2531818,0.09014369,0.91419053
+2010_004118,aeroplane,Aeroplane on display near park benches,Silver aeroplane displayed on outdoor tarmac,0.3250174,0.32770476,0.17451692,0.91622555
+n02412080_691,sheep,Sheep standing and resting among tall trees,Sheep locking horns on dry grassy ground,0.28385568,0.3003201,0.19941556,0.88383836
+000686,motorbike,Two motorbikes parked outside a restaurant,Two motorbikes parked outside a restaurant,0.30260733,0.30260733,0.16022965,1.0
+n02423022_2728,sheep,Sheep grazing together on green grass,Young horse foal trotting on green grass,0.22520061,0.25802496,0.18074441,0.9151235
+2008_001744,bottle,Bottle with pink label on dining table,Bottle with pink label on dining table,0.32895094,0.32895094,0.102451175,1.0
+n03201208_44249,diningtable,Large diningtable with ornate wooden chairs,Large diningtable with ornate wooden chairs,0.3287927,0.3287927,0.15216443,1.0
+2008_004453,sheep,Sheep with short wool in a pen,Sheep with short wool in a pen,0.29946604,0.29946604,0.1370165,1.0
+2009_003771,cat,Gray cat sitting on a wooden table outdoors,Gray cat sitting on a wooden table outdoors,0.32116193,0.32116193,0.12669969,1.0
+n04487081_1329,bus,Bus driving down a city street at night,White bus on city street near apartments,0.29396155,0.32548273,0.12301331,0.9215571
+002217,aeroplane,Aeroplane squad flying together in clear sky,Aeroplane squad flying together in clear sky,0.2685489,0.2685489,0.099135384,1.0
+009906,tvmonitor,Four tvmonitor screens on grassy roadside curb,Four tvmonitor screens on grassy roadside curb,0.36653984,0.36653984,0.15220319,0.99999994
+n04152593_560,tvmonitor,tvmonitor displaying waveforms beside electronic equipment,tvmonitor displaying waveforms beside electronic equipment,0.2959594,0.2959594,0.13269037,0.9999999
+n03376595_6409,chair,Wooden chair sitting on green grass outdoors,Wooden chair sitting on green grass outdoors,0.32952768,0.32952768,0.105831414,1.0
+003878,car,Blue classic car parked on the street,Blue classic car parked on the street,0.27505985,0.27505985,0.17702684,0.99999994
+n03785016_24598,motorbike,Red motorbike parked beside wooden fence,Red motorbike parked beside a sidewalk,0.28661284,0.297533,0.15058307,0.96667707
+001442,cow,Cow standing under a blue sky,Cow standing near a wire fence enclosure,0.31611174,0.32623422,0.18785106,0.9089915
+n03782006_19858,tvmonitor,Dual tvmonitor setup on a cluttered desk,Two tvmonitor screens on a cluttered desk,0.30715314,0.32107928,0.20775367,0.95711213
+n11939491_34141,flower,White flower with yellow center on green,White daisy flower with green foliage,0.30322975,0.34452474,0.1699346,0.91609484
+n02415577_5159,sheep,Sheep climbing rocky hillside with shrubs,Sheep with large horns on rocky terrain,0.2718048,0.34195244,0.1343221,0.91089076
+n04099969_21883,chair,Wooden rocking chair on hardwood floor,Wicker rocking chair on a stone patio,0.33188903,0.33793545,0.18945953,0.9349926
+2010_004219,motorbike,White motorbike on display at an event,White motorbike on display at an event,0.3269062,0.3269062,0.11705022,1.0
+n03782006_26412,tvmonitor,Three tvmonitors on a corner desk workspace,Dual tvmonitor setup on a cluttered desk,0.28780562,0.30298913,0.09643717,0.9133557
+001383,train,Train at station with pedestrian bridge overhead,Freight train passing by a station platform,0.2943341,0.30231518,0.16507204,0.89215785
+n03201208_17191,diningtable,Wooden diningtable with four chairs outdoors,Round diningtable with four wooden chairs,0.29713267,0.31494847,0.0878003,0.95265067
+n02389026_4241,horse,Brown horse standing on muddy ground,Brown horse standing in a fenced enclosure,0.28283158,0.29878405,0.16230428,0.9378011
+n04152593_6776,tvmonitor,Dual tvmonitor setup on a wooden desk,Dual tvmonitor screens on a computer desk,0.32550538,0.3523401,0.14132585,0.9544086
+002413,person,Person sitting on blue rocking toy outdoors,Person sitting on blue rocking toy outdoors,0.31185782,0.31185782,0.1789653,1.0
+003117,car,Rally car speeding through water on track,Rally car speeding through water on track,0.3219667,0.3219667,0.12968916,0.9999999
+007095,bus,Red bus turning on a suburban street,Red bus turning on a suburban street,0.34387445,0.34387445,0.22088778,0.99999994
+001550,car,Black car parked on cobblestone driveway,Black car parked on cobblestone driveway,0.27856818,0.27856818,0.13529406,1.0
+n03376595_10873,chair,Wooden chair on green grassy lawn,Black folding chair on a wooden deck,0.31084886,0.317244,0.15898752,0.9165724
+n11939491_180,flower,Yellow flower blooming among green leaves,Yellow flower with green and brown center,0.30134082,0.32384908,0.108595,0.900513
+n04487081_20011,bus,Red and white bus at a busy station,Red and white bus at urban bus station,0.31043658,0.31485328,0.16537428,0.9716292
+2009_005198,bird,Bird swimming alone on calm blue water,Bird flying low over rippling water,0.25172558,0.25948226,0.11506623,0.912718
+n02835271_15344,bicycle,Tandem bicycle parked near a brick building,Tandem bicycle parked near a brick building,0.3030873,0.3030873,0.17041285,1.0
+n03201208_47387,diningtable,Wooden diningtable with eight carved chairs,Large diningtable with ornate wooden chairs,0.3235248,0.33863604,0.09986385,0.94503075
+2009_004134,horse,Two horses play on grassy field,Two horses play on grassy field,0.31113172,0.31113172,0.13270271,1.0
+2010_002741,dog,Dog lying on towel on carpet,Dog lying on towel on carpet,0.30172542,0.30172542,0.16829328,1.0
+n03983396_11236,bottle,Colorful Coca-Cola bottle on a white surface,Colorful Coca-Cola bottle on a white surface,0.35710418,0.35710418,0.27170545,1.0
+n02389026_2566,horse,Horse walking in a fenced grassy area,Brown horse standing in a fenced enclosure,0.32326293,0.33735263,0.25323516,0.9425003
+2010_005174,horse,Horse standing near a white fence,Horse standing near a wooden fence,0.3293227,0.32962167,0.16449413,0.98295486
+n04483307_466,boat,Large boat docked near a calm shore,Boat with tall sails on open water,0.27648297,0.2994545,0.17572615,0.90191835
+006499,train,Blue train moving along rural tracks,Freight train passing by a station platform,0.30053765,0.30530578,0.101866506,0.8870524
+2008_006389,sofa,Dark blue corner sofa with ottoman nearby,Blue sofa beside plastic storage drawers,0.32823044,0.33997267,0.13775176,0.8906085
+n04487081_15703,bus,Red and cream bus parked near buildings,Three vintage buses parked near a hillside,0.2686753,0.31076604,0.16230491,0.9132747
+006468,train,Train on elevated tracks among city buildings,Train on elevated tracks among city buildings,0.32721362,0.32721362,0.16754906,1.0
+2008_006050,cat,Tabby cat lying on beige carpet,Cat stretching out on a patterned carpet,0.29924035,0.3112824,0.108702675,0.9229991
+2011_001498,motorbike,Vintage motorbike parked on grassy roadside,Vintage motorbike parked on grassy roadside,0.30168325,0.30168325,0.10217719,1.0
+2009_004828,dog,Dog standing alert on green grass,Dog standing alert on green grass,0.27446356,0.27446356,0.09996915,1.0
+n11939491_5500,flower,Pink flower with yellow center petals,Pink flower with yellow center petals,0.3205497,0.3205497,0.12142915,0.99999994
+2010_002527,dog,Dog standing on a rug near sofa,Dog with a green collar indoors,0.2538615,0.25920215,0.15837058,0.8998944
+003458,bird,Green bird pair perched on wooden branch,Green bird pair perched on wooden branch,0.32463735,0.32463735,0.14393625,0.99999994
+n03201208_17072,diningtable,Wooden diningtable with chairs and a cabinet,Diningtable set with four chairs and placemats,0.29342407,0.32392222,0.19123082,0.9173911
+2008_006130,dog,Dog sleeping under wooden table on rug,Dog sleeping under wooden table on rug,0.31196624,0.31196624,0.15280181,1.0
+003316,bird,Bird standing alone on dry grass,Bird standing on rocky ground with shrubs,0.26952642,0.28251103,0.07484621,0.92113674
+006871,cat,Cat sitting by a tree on gravel,Cat sitting by a tree on gravel,0.29544795,0.29544795,0.12243655,1.0
+2009_003165,cat,White cat with odd eyes on pavement,White cat with odd eyes on pavement,0.32524675,0.32524675,0.21005394,1.0
+006101,person,Three people smiling by a decorated Christmas tree,Three people smiling by a decorated Christmas tree,0.34407553,0.34407553,0.077917665,1.0
+n02835271_16813,bicycle,Tandem bicycle parked by a brick wall,Tandem bicycle parked by a brick wall,0.3296688,0.3296688,0.095779195,1.0
+n02403003_8220,cow,Cow standing near a rustic wooden building,Cow standing near a wire fence enclosure,0.28047284,0.28554493,0.1458207,0.9232897
+n04099969_2694,chair,Wooden rocking chair on a gray floor,Wooden rocking chair on a gray fabric surface,0.316069,0.3325326,0.12700087,0.95860213
+n04344873_9043,sofa,Red sofa next to a white rug,Red sofa next to a white rug,0.33294356,0.33294356,0.12945472,1.0
+2008_001185,bird,Bird flying near feeder over grassy ground,Bird flying near feeder over grassy ground,0.2795633,0.2795633,0.14078355,0.99999994
+2008_003522,person,Person feeding baby with orange food,Person feeding baby with orange food,0.32349563,0.32349563,0.1386687,1.0
+2010_005483,car,Yellow sports car with black racing stripes,Yellow sports car with black racing stripes,0.29303747,0.29303747,0.12965392,1.0000001
+000440,car,Red race car speeding along a winding road,Red race car speeding along a winding road,0.2728118,0.2728118,0.1097651,1.0
+n02389026_11267,horse,Horse standing on grassy field with flowers,Horse walking in a fenced grassy area,0.28738505,0.31489587,0.15280381,0.9360868
+2009_001812,tvmonitor,Large tvmonitor on desk with keyboard and mouse,Dual tvmonitor screens on a computer desk,0.2863873,0.32453144,0.13493574,0.9189236
+n03201208_15364,diningtable,Wooden diningtable with chairs and rug,Diningtable set with four chairs and placemats,0.30947214,0.3500424,0.14811958,0.916941
+2011_002992,aeroplane,KLM aeroplane taking off into clear sky,KLM aeroplane taking off into clear sky,0.33322746,0.33322746,0.15919283,1.0
+2010_001590,cat,Cat with pink collar lying on blanket,Cat with pink collar lying on blanket,0.32182837,0.32182837,0.21127841,1.0
+000627,sheep,Sheep standing in a frosty grassy field,Sheep standing in a frosty grassy field,0.34724015,0.34724015,0.14641763,1.0
+2010_002668,bottle,Bottle lying on dry twigs and dirt,Bottle lying on dry twigs and dirt,0.34765708,0.34765708,0.17297587,1.0000001
+n02403003_2751,cow,Two cows harnessed together on farmland,Brown and white cow standing with herd,0.29703152,0.30163562,0.09909621,0.88647217
+n03785016_18194,motorbike,Red motorbike parked next to green bush,Red and silver motorbike on a white surface,0.2695271,0.31577945,0.10188931,0.9007981
+n03983396_1231,bottle,Bottle collection arranged in a red crate,Bottle collection arranged in a red crate,0.33881783,0.33881783,0.11696893,1.0
+n03785016_4222,motorbike,Rusty motorbike parked beside a corrugated wall,Blue motorbike parked near a metal shed,0.31907856,0.32598898,0.23119739,0.93110013
+n03201208_56302,diningtable,Wooden diningtable with chairs on patterned rug,Diningtable with wooden chairs on patterned rug,0.33140814,0.33796516,0.21600893,0.9754783
+006651,aeroplane,Aeroplane parked on an airport tarmac,Aeroplane parked on a sunny airstrip,0.2677608,0.29725075,0.10574782,0.9564335
+2008_006239,dog,Small black and white dog on carpet,Small black and white dog on carpet,0.27610186,0.27610186,0.10522789,1.0
+001077,tvmonitor,tvmonitor on desk beside laptop computer,Dual tvmonitor screens on a computer desk,0.27432594,0.3172499,0.1182064,0.92980886
+n02417914_1135,sheep,Sheep standing among large gray rocks,Sheep with large horns on rocky terrain,0.25863707,0.303968,0.1560794,0.9142968
+n03785016_4657,motorbike,Red motorbike parked on green grass lawn,Red and silver motorbike on a white surface,0.29920733,0.32677758,0.16640463,0.91246206
+000172,car,Futuristic car with open gullwing door display,Futuristic car with open gullwing door display,0.3162592,0.3162592,0.19766736,1.0
+001395,cat,Fluffy cat lounging next to a laptop,Fluffy cat resting on a plastic crate,0.27827284,0.3031417,0.10207045,0.93433696
+n04344873_2882,sofa,Cream sofa with fluffy cushions beside table,Sofa with pillows on wooden floor,0.32896075,0.35246736,0.13460869,0.89084905
+n04344873_11821,sofa,White metal sofa with decorative pillows,Pink sofa with floral pillows and curtains,0.25304532,0.26834428,0.14291853,0.9514219
+008472,aeroplane,Aeroplane flying above in clear blue sky,Aeroplane flying against a clear blue sky,0.29398134,0.3046544,0.097613335,0.9704976
+n02389026_7236,horse,Horse nuzzling against another by hay,Horse eating hay near a large bale,0.3054421,0.31827116,0.12696454,0.900681
+n03782006_38734,tvmonitor,Vintage tvmonitor displays green wireframe graphics,Vintage tvmonitor displays green wireframe graphics,0.32087126,0.32087126,0.1153976,1.0
+n03782006_38825,tvmonitor,Old tvmonitor screens arranged on tiled floor,Multiple tvmonitors surrounded by old computers,0.31406897,0.32577267,0.14090578,0.8840305
+2008_007816,horse,Horse standing near dense green trees,Brown horse with bridle outdoors,0.27641374,0.3127548,0.15158233,0.8747207
+2008_008004,aeroplane,Aeroplane flying low over residential area,Aeroplane on airport runway with trees nearby,0.23675351,0.26623482,0.15287443,0.92768395
+2010_000898,bicycle,Bicycle leaning against a white wall,Black bicycle on gray tiled floor,0.2946483,0.32924807,0.14564839,0.879856
+n02415577_1200,sheep,Sheep standing among trees and bushes,Sheep climbing rocky hillside with shrubs,0.31193483,0.3134613,0.11216643,0.9120621
+2008_008373,aeroplane,Aeroplane flying low above grassy airfield,Aeroplane taxiing near large airport hangar,0.22848997,0.26950842,0.089306414,0.9313067
+006678,sheep,Sheep standing in a wire pen,Sheep with short wool in a pen,0.3365066,0.3418894,0.15373307,0.9252711
+2008_005845,dog,Dog shaking head on colorful rug indoors,Dog standing on a rug near sofa,0.27686772,0.27850646,0.19356802,0.9152102
+2010_002023,bird,Bird flying low over rippling water,Bird flying low over rippling water,0.30712077,0.30712077,0.15109932,1.0
+2010_001595,horse,Three horses grazing and resting near trees,Three horses grazing and resting near trees,0.32666543,0.32666543,0.1386727,1.0
+n04483307_4103,boat,Sailboat gliding over clear green water,Sailing boat gliding on open water,0.3074981,0.31320024,0.17934427,0.9431544
+008764,bird,Bird perched on dried plant stem,Bird perched on dried plant stem,0.3171799,0.3171799,0.096268535,1.0
+n11939491_7309,flower,Orange flower surrounded by green leaves,Orange flower with soft green surroundings,0.31552243,0.3228712,0.168922,0.9281669
+n11939491_22043,flower,Flower with white petals surrounded by grass,White daisy flower with green foliage,0.3328753,0.35236233,0.25422418,0.89741737
+n03095699_11846,boat,Cargo boat docked at a busy port,Container boat loaded with cargo at sea,0.2732926,0.30705866,0.16169035,0.9176407
+2010_001759,horse,Horse standing on a muddy rural field,Two cows harnessed together on farmland,0.27673316,0.3135547,0.23770465,0.8963609
+2008_006619,aeroplane,Aeroplane flying through clear blue sky,Aeroplane flying in clear blue sky,0.26589224,0.27594,0.03780571,0.9825113
+n03782006_14221,tvmonitor,tvmonitor on a desk beside a laptop,Three tvmonitors on a corner desk workspace,0.29729784,0.3296286,0.1650666,0.9099954
+n03782006_7066,tvmonitor,tvmonitor displaying waterfall wallpaper on desk,tvmonitor displaying waterfall wallpaper on desk,0.3345517,0.3345517,0.15764731,1.0
+n03201208_12831,diningtable,Wooden diningtable surrounded by cushioned chairs,Round diningtable with four wooden chairs,0.30867627,0.33194536,0.09623094,0.92825705
+n02835271_13395,bicycle,Tandem bicycle parked next to a tree,Tandem bicycle parked on a sidewalk,0.3295395,0.33198923,0.14495319,0.965675
+2010_002102,bus,Red double-decker bus near grassy field,Red double-decker bus near grassy field,0.33052433,0.33052433,0.1966278,1.0
+n04487081_1886,bus,Red bus parked on a suburban street,Red bus turning on a suburban street,0.32666805,0.33088896,0.17850515,0.97096926
+n02423022_10411,sheep,Sheep grazing on green grassy field,Young horse running on sandy paddock grass,0.20727456,0.26360652,0.2383051,0.91626346
+n03095699_20856,boat,Boat carrying stacked cargo containers on river,Large cargo boat carrying colorful shipping containers,0.30264384,0.3201633,0.15675056,0.9243995
+n04099969_6808,chair,Wooden rocking chair on a gray fabric surface,Wooden rocking chair on a gray fabric surface,0.32219633,0.32219633,0.22557677,1.0
+2011_001263,aeroplane,Aeroplane approaching airport above terminal buildings,Aeroplane approaching airport above terminal buildings,0.3144328,0.3144328,0.112604335,1.0
+n02410509_20039,cow,Cow resting on green grassy field,Sheep with curled horns standing on grass,0.28138608,0.30760467,0.13242278,0.9041208
+n04099969_1275,chair,Two rocking chairs overlooking trees and buildings,Two cushioned chairs on a stone patio,0.28058618,0.30365688,0.17146707,0.9074224
+n11939491_6092,flower,White flower surrounded by blurred green and pink,White daisy flower with green foliage,0.30337057,0.32322562,0.18251356,0.8983593
+2008_007273,cow,Cow and calf standing on green grass,Cow and calf standing on green grass,0.32167703,0.32167703,0.19181119,1.0
+n11939491_9232,flower,White flower with vibrant red surroundings,White daisy flower with green foliage,0.32877573,0.3449573,0.12791084,0.9006698
+002323,cow,Cow resting on grass near a lake,Cow resting on grass near a lake,0.32812178,0.32812178,0.18339674,1.0
+2008_004015,dog,Black dog and puppy playing on grass,Black dog and puppy playing on grass,0.32342178,0.32342178,0.19992426,0.99999994
+n03785016_33240,motorbike,Red motorbike parked on grass by brick wall,Tandem bicycle on a gravel surface,0.28248233,0.30001444,0.12827915,0.89505374
+2011_001572,cat,Gray cat indoors with tan walls,Gray cat indoors with tan walls,0.3201176,0.3201176,0.13383827,1.0
+n04099969_6294,chair,Wooden chair on a weathered deck outdoors,Black folding chair on a wooden deck,0.32043847,0.33465207,0.11428216,0.9225233
+2011_000061,tvmonitor,Three tvmonitor screens with computers and desk,Multiple tvmonitors surrounded by old computers,0.31184807,0.32603416,0.12223108,0.9031278
+004772,cow,Cow resting on green grassy field,Cow resting on green grass near rocks,0.32148653,0.32719404,0.19510601,0.9512601
+2009_000029,dog,Dog resting on tiled floor near mosaic,Brown dog lying on tiled floor,0.27478313,0.28481284,0.23743355,0.94126713
+n03201208_15802,diningtable,Wooden diningtable surrounded by matching chairs,Round diningtable with four green chairs nearby,0.30408424,0.33336776,0.22031868,0.9177542
+n02791124_10186,chair,Barber chair beside a white lattice divider,Barber chair with brown leather and wood,0.31693918,0.32751313,0.1658352,0.89954233
+2009_002975,horse,Brown and white horse standing at sunset,Brown and white horse standing at sunset,0.33289748,0.33289748,0.20942228,1.0000001
+n11939491_20045,flower,White daisy flowers among green grass,Two white flower daisies among green grass,0.32715514,0.35282922,0.17592886,0.9551077
+002593,sheep,Sheep standing on a grassy hillside,Sheep standing on dry grassy ground,0.32388663,0.3296801,0.15316121,0.95723104
+2009_001765,bird,Bird taking flight above ocean waves,Bird gliding on calm blue water,0.2860524,0.2903157,0.09580676,0.90900207
+2010_002105,dog,Dog lying comfortably on a cozy bed,Dog resting on a couch with pillow,0.31446362,0.31581426,0.19678605,0.9376806
+2009_001640,bottle,Bottle of sparkling wine in a wooden box,Bottle of sparkling wine in a wooden box,0.2919926,0.2919926,0.1249771,1.0
+2011_000651,motorbike,Motorbike parked near fencing and grass,White motorbike on display at an event,0.33385044,0.35864085,0.22182038,0.89538234
+007879,dog,Dog exploring snowy ground outdoors,Dog exploring snowy ground outdoors,0.2951377,0.2951377,0.115181744,1.0
+n02389026_1222,horse,Young horse walking in a grassy paddock,Young horse foal trotting on green grass,0.2905513,0.31793252,0.15209432,0.9343825
+2008_005327,horse,Horse standing quietly inside a wooden stable,Horse standing quietly inside a wooden stable,0.30703187,0.30703187,0.13445133,1.0
+006479,dog,White dog resting on a cream sofa,White dog resting on a cream sofa,0.30587226,0.30587226,0.11465809,1.0000001
+2009_000938,bird,Bird walking through tall grassy field,Bird with white head near wire fence,0.25168222,0.27828568,0.072188646,0.88409
+n11939491_25657,flower,Colorful flower with pointed petals on soil,Colorful flower with pointed petals on soil,0.33890975,0.33890975,0.1438912,1.0
+007104,bottle,Pink bottle held on a gray surface,Pink bottle held on a gray surface,0.32147157,0.32147157,0.12716943,1.0
+009472,aeroplane,Aeroplane landing on a grassy runway,Aeroplane on runway near green grass,0.26057076,0.26833263,0.124203265,0.9593096
+2010_001292,cat,Cat with blue eyes outdoors in greenery,Cat with blue eyes outdoors in greenery,0.32206196,0.32206196,0.17062747,1.0
+n03201208_34894,diningtable,Wooden diningtable with candles and kitchen nearby,Diningtable with four chairs on wood floor,0.30598274,0.32731497,0.11059989,0.9016737
+2009_003686,horse,Brown horse with bridle outdoors,Brown horse with bridle outdoors,0.31035665,0.31035665,0.1665844,1.0
+n11939491_6766,flower,Yellow flower beneath clear blue sky,Yellow flower beneath clear blue sky,0.32992542,0.32992542,0.20453784,1.0
+n02389026_2712,horse,Horse walking in snowy fenced yard,Brown horse standing in a fenced enclosure,0.2875887,0.29925984,0.15547946,0.93648094
+n11939491_5785,flower,White yellow flower against pale blue background,White daisy flower with green foliage,0.32315016,0.33076116,0.15595028,0.89771664
+n04099969_3243,chair,Wooden rocking chair on patterned rug,Wooden rocking chair with blue cushion upholstery,0.30635685,0.32001287,0.10783293,0.91937816
+n03791053_2649,motorbike,Blue motorbike parked by a stone wall,Blue motorbike parked on green grass,0.30309552,0.31649902,0.16466635,0.9554154
+2010_004041,boat,Boat docks alongside turquoise blue water,Large boat docked near a calm shore,0.26175502,0.26453906,0.09224994,0.90231
+n04344873_4734,sofa,Plaid sofa with assorted pillows in living room,Plaid sofa with mismatched cushions on wood floor,0.3213756,0.32710597,0.11354148,0.9176118
+n02408429_6170,cow,Cow standing on dry grassy field,Cow standing in a muddy grassy field,0.29003227,0.30833688,0.12593845,0.9726562
+n03983396_10312,bottle,Bottle collection in a metal rack on wood floor,Bottle collection in a metal rack on wood floor,0.3379025,0.3379025,0.10429849,1.0
+n03792782_571,bicycle,Yellow road bicycle on wooden floor indoors,Yellow road bicycle on wooden floor indoors,0.2911967,0.2911967,0.093031354,1.0
+n02422699_3560,sheep,Two sheep grazing on green grassy field,Three horses grazing and resting near trees,0.22480461,0.23135643,0.16020188,0.913968
+n04344873_18244,sofa,Woven modern sofa on a white floor,Wicker rocking chair on patterned carpet,0.24888697,0.2807886,0.1376896,0.9020502
+002354,aeroplane,Aeroplane flying low above city buildings,Aeroplane being towed on airport runway,0.23431955,0.27045485,0.21022606,0.9251458
+2010_001705,dog,Dog sitting on green grass near fence,Dog standing alert on green grass,0.28516713,0.29860538,0.11613497,0.9464798
+2010_001937,cow,Cow standing on green grassy field,Cow standing near a wire fence enclosure,0.27427202,0.3101063,0.14949523,0.9000408
+n03201208_27794,diningtable,Wooden diningtable with plant centerpiece indoors,Diningtable with four chairs on wood floor,0.3004078,0.34063008,0.28926873,0.9055302
+n04487081_23092,bus,Blue and white bus parked near green trees,Bus turning on a quiet suburban street,0.27229574,0.2952348,0.106203735,0.8772198
+n04483307_1763,boat,Racing boat gliding swiftly over blue water,Boat with colorful sails gliding on ocean,0.25571305,0.2832135,0.061737295,0.91935
+005437,car,Silver car on display in modern showroom,Silver car on display in modern showroom,0.32686293,0.32686293,0.21215251,1.0
+n04099969_3564,chair,Wooden chair standing in tall dry grass,Wooden chair standing in tall dry grass,0.33902305,0.33902305,0.12686683,1.0
+2010_002499,dog,Dog running across an indoor sports court,Dog running across an indoor sports court,0.33137417,0.33137417,0.16038835,1.0
+2010_001763,sofa,Floral sofa on a plain white floor,Floral patterned sofa with colorful upholstery,0.30121514,0.32199344,0.124341436,0.9063123
+n02835271_929,bicycle,Tandem bicycle with yellow and green frame indoors,Tandem bicycle with yellow and green frame indoors,0.37926406,0.37926406,0.17698407,0.99999994
+n03792782_4403,bicycle,Bicycle leaning against a stone wall,Bicycle resting on a forest trail,0.307095,0.31911892,0.1655404,0.94332993
+002270,bicycle,Pink bicycle with unique front wheel indoors,Pink bicycle with unique front wheel indoors,0.30453748,0.30453748,0.094619855,1.0
+n04487081_19682,bus,Bus driving on tree-lined suburban street,City bus parked by trees and sidewalk,0.32117167,0.32659936,0.121884644,0.91219693
+n03792782_9174,bicycle,Red racing bicycle beside wooden fence panels,Bicycle with yellow rims on a red mat,0.26309544,0.27922133,0.10089187,0.87451273
+2010_005909,bicycle,Bicycle locked to a stone wall,Bicycle with blue handlebars near garage doors,0.29112327,0.32410657,0.19707519,0.90527266
+2010_005855,cat,Gray cat standing on brown carpet,Gray cat standing on brown carpet,0.3162729,0.3162729,0.15063657,1.0000001
+n03792782_2959,bicycle,Bicycle parked on a porch near windows,Tandem bicycle with yellow and green frame indoors,0.26957488,0.31532842,0.18938974,0.86370856
+008693,car,White car parked beside a suburban house,White car parked beside a suburban house,0.26887822,0.26887822,0.13743037,1.0
+n02410509_5139,cow,Cow grazing on green grassy field,Group of black cows standing on grass,0.23990142,0.29501987,0.1004846,0.9162492
+n02835271_17649,bicycle,Tandem bicycle with bottles on display wall,Tandem bicycle with bottles on display wall,0.34284782,0.34284782,0.12832883,1.0
+n04099969_2905,chair,Wooden rocking chair on plain floor,Wooden chair with carved backrest among others,0.3047477,0.31694418,0.122067876,0.88923836
+2010_004627,bus,Orange double-decker bus near grassy fields,Three vintage buses parked near a hillside,0.31524655,0.33988816,0.17247206,0.9111695
+n04487081_14089,bus,Red and white bus at urban bus station,Red and white bus at urban bus station,0.3077941,0.3077941,0.081050016,1.0
+2010_002045,sofa,Brown sofa on carpeted living room floor,Cat resting on a brown leather couch,0.31508785,0.31798777,0.14811814,0.90705985
+2008_002259,person,Person smiling with cake in a kitchen,Person smiling with cake in a kitchen,0.30269232,0.30269232,0.14547032,1.0
+n04344873_745,sofa,Plaid sofa with pillows beside a small table,Plaid sofa with pillows beside a small table,0.3356624,0.3356624,0.11109435,1.0
+n04152593_15007,tvmonitor,tvmonitor displaying system BIOS error messages,Vintage tvmonitor displaying green text interface,0.3138668,0.36768812,0.12505074,0.8903142
+2008_007350,aeroplane,Aeroplane taxiing on runway near trees,Aeroplane on airport runway with trees nearby,0.30138165,0.31879434,0.097910054,0.96104574
+2009_001069,tvmonitor,tvmonitor on a desk with keyboard and computer,Dual tvmonitor screens on a computer desk,0.31132308,0.31670082,0.18655452,0.92626655
+n03792782_31944,bicycle,Bicycle on green grass near garden fence,Black mountain bicycle indoors on red tile floor,0.2729843,0.2764316,0.0872336,0.8585007
+008559,person,Person singing energetically on a dimly lit stage,Person singing energetically on a dimly lit stage,0.29223073,0.29223073,0.13972373,1.0
+003318,sheep,Sheep grazing on a sunny green field,Sheep standing on dry grass and dirt,0.29297274,0.32883874,0.11543876,0.9201877
+n04344873_6202,sofa,Sofa with metal frame and wood paneling,Rustic wooden sofa with striped bedding,0.25783503,0.29492453,0.12026273,0.8882119
+000033,aeroplane,Aeroplane at airport gate on a cloudy day,Aeroplane at airport gate on a cloudy day,0.29565072,0.29565072,0.12807323,1.0
+n02410509_4083,cow,Cow herd grazing on green grassy field,Group of black cows standing on grass,0.25936145,0.271177,0.09309829,0.9187046
+n04099969_2354,chair,Chair on a wooden porch overlooking water,Black folding chair on a wooden deck,0.3334147,0.34593302,0.18280496,0.91826075
+2009_004255,train,Black train engine on gravel railway tracks,Black steam train displayed behind metal fence,0.30259052,0.31373066,0.15946168,0.90149945
+2009_004706,sheep,Sheep eating hay on snowy ground,Sheep standing by a metal fence,0.3142289,0.31693685,0.14044178,0.9097111
+n11939491_51866,flower,Pink flower with water droplets outdoors,Pink flower with water droplets outdoors,0.31812876,0.31812876,0.1671432,1.0
+n03201208_16993,diningtable,Wood diningtable with chairs and a plant,Diningtable set with four chairs and placemats,0.30848193,0.33310097,0.14275655,0.9122468
+2010_001253,dog,White dog with green paws on wooden deck,White dog with green paws on wooden deck,0.333973,0.333973,0.11829178,1.0
+2008_004138,aeroplane,Aeroplane flying high in the blue sky,Aeroplane flying high in clear blue sky,0.3055088,0.30954167,0.06903839,0.98573965
+2010_003900,train,Steam train on turntable near brick buildings,Black steam train displayed behind metal fence,0.32837427,0.32965118,0.12649843,0.89705735
+n03095699_2942,boat,Container boat loaded with cargo at sea,Container boat carrying cargo on calm water,0.2945007,0.29648352,0.12849359,0.95257384
+2010_000617,person,Person holding book while riding bicycle outdoors,Person holding book while riding bicycle outdoors,0.28172436,0.28172436,0.17955923,1.0
+n04099969_1885,chair,Wooden rocking chair beside a sunlit window,Wooden rocking chair beside a sunlit window,0.32899785,0.32899785,0.14075373,1.0
+2009_000586,dog,Dog wearing a furry jacket on carpet,Dog wearing a furry jacket on carpet,0.3103357,0.3103357,0.16860841,1.0000001
+000537,dog,Dog sitting on a couch by blinds,Dog with a green collar indoors,0.26639876,0.27446994,0.14001882,0.8925597
+2008_008170,boat,Large boat docked near industrial buildings,Large boat docked near industrial buildings,0.3295572,0.3295572,0.24740027,1.0
+n03062245_3370,bottle,Red bottle with metallic cap on table,Red glass bottle with silver metal lid,0.30381143,0.32709864,0.14601609,0.9332784
+2010_000702,cat,Cat on wooden floor beside food bowls,Cat on wooden floor beside food bowls,0.3143215,0.3143215,0.11176316,1.0
+n02403003_7483,cow,Cow grazing on lush green grass,Group of black cows standing on grass,0.26598692,0.30743268,0.19032718,0.9184965
+004143,bird,Colorful bird perched near leafy plants,Colorful bird standing on a wooden branch,0.27948672,0.29257622,0.14183229,0.92428803
+n04099969_3212,chair,Wooden chair placed near stacked firewood,Wicker rocking chair on a stone patio,0.29709277,0.33279267,0.16809139,0.8978721
+000186,bird,Bird soaring across a clear blue sky,Bird soaring across a clear blue sky,0.30731055,0.30731055,0.17516062,0.99999994
+n02412080_16213,sheep,Sheep locking horns on dry grassy ground,Sheep locking horns on dry grassy ground,0.28861487,0.28861487,0.07639942,1.0
+n04487081_19607,bus,Bus travels through city street with buildings,Bus parked on city street near buildings,0.32280844,0.34397024,0.24746998,0.93202144
+n03792782_973,bicycle,Bicycle leaning on wooden stairs outside house,Tandem bicycle parked on a porch,0.2943917,0.30985993,0.16290703,0.91264725
+n03782006_19233,tvmonitor,tvmonitor on wooden desk with computer setup,Two tvmonitor screens on a cluttered desk,0.28531733,0.32604253,0.083824694,0.9049433
+005933,train,Freight train passing through a small town,Freight train passing through a small town,0.31546974,0.31546974,0.10247284,1.0
+2010_005727,train,Freight train crossing a pink brick bridge,Train on elevated tracks among city buildings,0.30717468,0.32724646,0.14991757,0.8727814
+n02389026_9151,horse,Horse grazing in a sunny green pasture,Horse grazing under leafy green tree,0.32242626,0.35846022,0.17297278,0.9400153
+n03095699_2023,boat,Container boat passing along a wide river,Large container boat passing near city shoreline,0.29068324,0.33920735,0.27245623,0.8983197
+n03095699_25444,boat,Large industrial boat near a military vessel,Cargo boat docked at a busy port,0.2916786,0.293503,0.13297492,0.9124935
+000039,tvmonitor,tvmonitor beside kitchen sink and refrigerator,Old Compaq tvmonitor displaying Mac OS X,0.28675866,0.3376108,0.12523587,0.85242736
+2011_001930,chair,Wooden chair on a sunny seaside deck,Wooden chair on a sunny seaside deck,0.32831043,0.32831043,0.20366135,1.0
+2008_003305,person,Two people standing indoors under ceiling light,Two people posing together in a room,0.30293807,0.31646287,0.13059601,0.90988064
+n02389026_7952,horse,Horse resting on dry grass by trees,Three horses grazing and resting near trees,0.29320285,0.32201502,0.1958313,0.93719774
+n04152593_78757,tvmonitor,Tvmonitor displaying a webpage on wooden desk,Dual tvmonitor screens on a computer desk,0.30982792,0.31919554,0.105521485,0.9128956
+n03201208_13930,diningtable,Diningtable with six chairs near large curtains,Diningtable with six chairs near large curtains,0.3289799,0.3289799,0.18545382,1.0
+004373,bird,Birds searching for food beside a shed,Birds searching for food beside a shed,0.3132707,0.3132707,0.12238976,1.0
+n03201208_14916,diningtable,Wood diningtable with two blue chairs,Wood diningtable with two blue chairs,0.3148253,0.3148253,0.13386989,1.0000001
+2010_005080,bus,Three vintage buses parked near a hillside,Three vintage buses parked near a hillside,0.38462698,0.38462698,0.042803165,1.0
+n03201208_14713,diningtable,Diningtable with six chairs on wooden floor,Diningtable with six chairs on wooden floor,0.34849945,0.34849945,0.087992646,1.0
+n04152593_14818,tvmonitor,Large tvmonitor and computer setup on desk,Three tvmonitors on a corner desk workspace,0.29480857,0.3270429,0.17038503,0.9053612
+000425,car,Rally car on a dirt road race,Rally car on a dirt road race,0.2952645,0.2952645,0.1291098,1.0
+n04152593_37332,tvmonitor,Two tvmonitor screens on a cluttered desk,Two tvmonitor screens on a cluttered desk,0.31730318,0.31730318,0.11022502,1.0
+002722,bicycle,Blue bicycle parked by a white shed,Tandem bicycle on a gravel surface,0.27313724,0.2969567,0.13036667,0.89802635
+n03792782_485,bicycle,Bicycle leaning against a concrete wall,Black bicycle on gray tiled floor,0.28083664,0.29910976,0.2285904,0.8692049
+2009_001118,train,Train stopped at an indoor station platform,Freight train passing by a station platform,0.28038126,0.29432145,0.15100755,0.9141434
+n02422699_170,sheep,Sheep grazing on lush green grass,Horse grazing under leafy green tree,0.22518322,0.26065445,0.09987526,0.92486954
+n11939491_2443,flower,Yellow flower blooming among green leaves,Yellow flower with green and brown center,0.30528063,0.32766223,0.1436737,0.900513
+2010_000572,aeroplane,Aeroplane display mounted near palm tree,Aeroplane on display near park benches,0.27398476,0.28012553,0.14157246,0.94824517
+n02403003_4254,cow,Cow standing among lush green palm trees,Cow standing among lush green palm trees,0.35075653,0.35075653,0.08481294,1.0
+n02403003_8769,cow,Cow grazing near a dirt road,Cow grazing near a dirt road,0.30521584,0.30521584,0.17413342,1.0
+n04099969_1802,chair,Black wooden chair on hardwood floor,Wooden chair with carved backrest among others,0.2964728,0.3104117,0.18046314,0.89127904
+2010_004412,train,Freight train passing by a station platform,Freight train passing by a station platform,0.30148137,0.30148137,0.13823745,1.0
+006638,sofa,Sofa with patterned cover and scattered cushions,Sofa with pillows on wooden floor,0.33866513,0.35749865,0.15055585,0.9127946
+008825,aeroplane,Aeroplane flying through a cloudy sky,Aeroplane flying low against cloudy sky,0.27095777,0.27551866,0.15396437,0.96534765
+n04487081_15970,bus,Bus parked beside tall office buildings,Bus parked on city street near buildings,0.30701423,0.3288534,0.30673388,0.93094856
+2010_004831,bicycle,Bicycle parked on a sunny sidewalk,Tandem bicycle parked on suburban driveway,0.29822683,0.32082427,0.10612243,0.9326481
+2009_001391,cat,Cat lounging in a cozy basket bed,Gray cat indoors with tan walls,0.3147058,0.31537175,0.15665045,0.8620405
+001375,bird,Bird flying low above calm water,Bird gliding on calm blue water,0.27291772,0.27696413,0.12927075,0.9274847
+2008_008120,bus,Blue and white bus parked on asphalt,Blue and white bus parked on asphalt,0.28772795,0.28772795,0.11151674,1.0
+n04152593_23836,tvmonitor,Dual tvmonitor setup on a computer desk,Dual tvmonitor screens on a computer desk,0.3174351,0.333252,0.28675157,0.9757237
+008695,motorbike,Vintage motorbike on display in a garage,Vintage motorbike on display in a garage,0.32501936,0.32501936,0.09785899,0.99999994
+n02389026_141,horse,Horse standing near a pile of hay,Horse standing near a pile of hay,0.31915063,0.31915063,0.113124564,0.99999994
+n02423022_7067,sheep,Sheep grazing on a grassy field,Young horse foal trotting on green grass,0.22038372,0.2780941,0.19875605,0.9044586
+n11939491_11040,flower,White flower with green buds and purple berries,White daisy flower with green foliage,0.32500952,0.33491898,0.14840363,0.93820465
+2008_002616,person,Person dancing at a formal indoor event,Person dancing at a formal indoor event,0.28079602,0.28079602,0.08663215,0.99999994
+n04344873_14793,sofa,Yellow sofa with wooden legs on white,Yellow sofa with wooden legs on white,0.33358574,0.33358574,0.12750012,1.0
+n04099969_1005,chair,Wicker rocking chair on a garden patio,Wicker rocking chair on a garden patio,0.3924926,0.3924926,0.14518915,1.0
+n03785016_4334,motorbike,Motorbike parked on empty paved lot,Motorbike parked on a rural paved road,0.293898,0.2973699,0.16720852,0.94604856
+2009_002264,bird,Bird standing in tall green grass,Bird standing on grassy ground near bushes,0.29482472,0.31299508,0.14846012,0.931304
+2010_000483,sheep,Sheep grazing on rocky coastal grassland,Sheep grazing on rocky coastal grassland,0.35672706,0.35672706,0.16690165,1.0
+2008_007229,aeroplane,Aeroplane taxiing on a runway near trees,Silver aeroplane displayed on outdoor tarmac,0.29351574,0.32702187,0.16364816,0.9062652
+n03201208_22335,diningtable,Glass diningtable with four black chairs nearby,Modern diningtable with black chairs and carpet,0.31053537,0.3176195,0.31143737,0.9392926
+2008_001290,cat,Cat lounging on a bag of litter,Tabby cat lying on beige carpet,0.2770403,0.29378006,0.19143122,0.8953193
+000985,car,Car parked by a wooden fence,White car displayed on a modern showroom floor,0.2498714,0.28372803,0.17837068,0.89997625
+003359,car,Black vintage car driving on city street,Black vintage car driving on city street,0.3044567,0.3044567,0.13901308,1.0
+2008_003703,aeroplane,Aeroplane taxiing on a wet runway,Aeroplane parked on a wet airport runway,0.27839357,0.28853515,0.10945367,0.9704894
+n11939491_8423,flower,Red flower with green leaves on soil,Red flower with green leaves on soil,0.29924774,0.29924774,0.13621253,1.0
+n11939491_3999,flower,White daisy flower surrounded by green leaves,White daisy flower with green foliage,0.34417558,0.34835154,0.14358766,0.97050995
+2008_003178,chair,Red plastic chair on tiled floor indoors,Red plastic chair on tiled floor indoors,0.33934486,0.33934486,0.16610849,1.0
+2010_005480,person,Person sitting alone on a train seat,Person sitting alone on a train seat,0.31667313,0.31667313,0.2295554,1.0
+2010_001577,sheep,Sheep standing on dirt and grassy ground,Sheep with short wool in a pen,0.29435334,0.30791682,0.1571414,0.88099825
+n03095699_3913,boat,Large container boat passing near city shoreline,Boat carrying cargo containers on open water,0.3201607,0.32186344,0.13736215,0.89727604
+n11939491_12320,flower,White flower with yellow center and green leaves,White daisy flower with green foliage,0.31557626,0.35206634,0.14606102,0.9367924
+008328,dog,Dog standing on grass near garden fence,Dog standing alert on green grass,0.2593758,0.26154953,0.20258945,0.9329542
+2009_000593,dog,White dog running on green grass,Fluffy white dog resting on green grass,0.3104481,0.33311474,0.08856327,0.9537822
+2008_002004,cat,Gray cat lounging on a person's arm,Gray cat lounging on a person's arm,0.29128093,0.29128093,0.075315,1.0
+002321,train,Train approaching on curved rural tracks,Red and cream train at rural station platform,0.31652868,0.32836235,0.16059345,0.89002544
+003537,train,Orange train passing trees on sunny day,Two orange BNSF trains on railroad tracks,0.2982818,0.34151608,0.17300919,0.8848417
+2011_001290,motorbike,Motorbike parked on a gravel road near trees,Motorbike parked on a gravel road near trees,0.31913024,0.31913024,0.14744785,0.9999999
+2009_001160,bird,Bird perched near bright yellow flowers,Bird perched near bright yellow flowers,0.30048344,0.30048344,0.1293266,1.0
+n02412080_14016,sheep,Sheep standing alone on green grass,Sheep standing alone on green grass,0.3428973,0.3428973,0.2619251,1.0
+006017,car,Black car parked on grassy yard,Black car parked on grassy yard,0.27232653,0.27232653,0.07991555,1.0000001
+n03201208_6738,diningtable,Diningtable with polka dot cloth and chairs,Diningtable with wooden chairs and tiled floor,0.3072961,0.31326017,0.1869986,0.92073286
+004634,horse,Horse standing in tall green grass,Horse walking in a fenced grassy area,0.31169,0.3184868,0.13557473,0.9250945
+n11939491_26985,flower,White and yellow flower on wooden surface,White and yellow flower on wooden surface,0.3186587,0.3186587,0.13926771,0.99999994
+2011_003177,aeroplane,Aeroplane being towed on airport runway,Aeroplane being towed on airport runway,0.29197422,0.29197422,0.11894583,1.0
+2010_002295,aeroplane,Aeroplane flying against a clear blue sky,Aeroplane flying high in clear sky,0.25244796,0.26173207,0.12760612,0.96334285
+n02422699_9205,sheep,Sheep standing on dry grassy ground,Bird standing on rocky ground with shrubs,0.20491344,0.26202524,0.08846675,0.90751815
+n03201208_6718,diningtable,Modern diningtable with black chairs and carpet,Modern diningtable with black chairs and carpet,0.33346316,0.33346316,0.20090024,1.0
+n04099969_1704,chair,White rocking chair on green lawn,White rocking chair on green lawn,0.35550702,0.35550702,0.16221532,1.0
+2008_006336,car,Car parked by a rural mountain landscape,Car parked by a rural mountain landscape,0.28898886,0.28898886,0.107196406,1.0000001
+n11939491_26609,flower,Purple and white flower with green leaves,Purple and white flower with green leaves,0.31940144,0.31940144,0.11788155,1.0
+2009_000716,cat,Gray cat resting on a floral cushion,Gray cat resting on a floral cushion,0.31173658,0.31173658,0.19582301,1.0
+2010_001561,car,Black car parked on a sunny driveway,Black car parked on a gravel driveway,0.25721982,0.27445966,0.15515015,0.9736653
+n03785016_17328,motorbike,Red motorbike parked near colorful market stalls,Red motorbike parked near colorful market stalls,0.30575842,0.30575842,0.19374897,1.0
+002571,bird,Bird soaring across a clear blue sky,Bird soaring across a clear blue sky,0.27828652,0.27828652,0.08739465,0.99999994
+n03201208_9792,diningtable,Wooden diningtable with chairs on a patio,Wooden diningtable with four chairs outdoors,0.31088465,0.3193074,0.05349749,0.95788777
+n04483307_7973,boat,Yellow boat with sails on a forested lake,Boat with tall sails on open water,0.28930992,0.2932819,0.10050276,0.92561287
+n03201208_16888,diningtable,Diningtable with chairs beside a yellow wall,Diningtable with four chairs on wood floor,0.310599,0.3216689,0.29935747,0.93101704
+2010_000955,train,Green train passing by large industrial silos,Green train passing by large industrial silos,0.35900626,0.35900626,0.13486868,1.0
+n04099969_2461,chair,Worn rocking chair on a wooden porch,Wicker rocking chair on a garden patio,0.3062354,0.3186288,0.17876482,0.94761854
+2010_003279,aeroplane,Aeroplane landing on airport runway grass,Aeroplane taxiing near large airport hangar,0.27225643,0.28445438,0.12893285,0.9336291
+001838,car,White car parked by a metal fence,White car parked beside a suburban house,0.25936535,0.28195196,0.19745442,0.9393537
+n03785016_5347,motorbike,Blue motorbike parked by a red wall,Blue tandem bicycle on green grass lawn,0.2878965,0.31647396,0.155071,0.91176045
+n03062245_1800,bottle,Bottle with shakers on a kitchen counter,Bottle collection in a metal rack on wood floor,0.28440374,0.3008636,0.11926797,0.9095893
+n04487081_13955,bus,Electric bus on city street with buildings,Bus parked on city street near buildings,0.2997989,0.31324178,0.08307013,0.9450424
+002894,aeroplane,Aeroplane displayed in a large hangar,Aeroplane displayed in a large hangar,0.30523205,0.30523205,0.10963466,1.0
+2010_002388,bottle,Bottle holding a single red rose indoors,Bottle holding a single red rose indoors,0.35556847,0.35556847,0.12699205,1.0
+n04483307_3937,boat,Sailboat on blue water near rocky hills,Boat sailing near coastal hills and mountains,0.3048221,0.32006633,0.17967613,0.91788524
+n11939491_7390,flower,Flower with soft pink petals among leaves,Flower with soft pink petals among leaves,0.31255937,0.31255937,0.14504245,1.0
+n02389026_2779,horse,Horse eating hay near a large bale,Horse eating hay near a large bale,0.30786893,0.30786893,0.16062483,1.0
+005194,dog,Dog resting on a couch with pillow,Dog resting on a couch with pillow,0.32361048,0.32361048,0.20761077,0.99999994
+004659,sofa,Pink sofa with floral pillows and curtains,Pink sofa with floral pillows and curtains,0.36107588,0.36107588,0.17904532,1.0
+n04344873_5440,sofa,Sofa with pillows beside a lamp and dresser,Dog lying on a plaid bedspread,0.22345373,0.27264637,0.11314343,0.882772
+n02417914_51768,sheep,Sheep with large horns on rocky terrain,Sheep with large horns on rocky terrain,0.31308836,0.31308836,0.14601338,1.0
+n02835271_23173,bicycle,Tandem bicycle against a plain white wall,Tandem bicycle against a plain white wall,0.29187894,0.29187894,0.12159492,1.0
+001158,chair,Two patterned chairs on a carpeted floor,Two patterned chairs on a carpeted floor,0.33705458,0.33705458,0.10722419,1.0
+n02389026_3206,horse,Young horse lying on grassy field,Young horse lying on grassy field,0.33652326,0.33652326,0.123323,1.0
+009784,train,Steam train moving past an industrial building,Steam train on turntable near brick buildings,0.29025215,0.29724914,0.06403713,0.91273266
+2009_004543,horse,White horse grazing on green grassy field,Horse walking in a fenced grassy area,0.30651572,0.3224547,0.1323354,0.9325714
+n04483307_4913,boat,Sailboat with yellow trim on calm water,Sailboat with yellow trim on calm water,0.31383154,0.31383154,0.14731093,1.0
+n03201208_14891,diningtable,Wooden diningtable with three chairs and plant,Wood diningtable with chairs and a plant,0.33136714,0.33743078,0.16951042,0.9564494
+2009_000991,bird,Bird standing on rocky ground with shrubs,Bird standing on rocky ground with shrubs,0.30142063,0.30142063,0.17802918,1.0
+n04099969_20900,chair,Wicker rocking chair on a stone patio,Wicker rocking chair on a garden patio,0.3386221,0.34743953,0.13472658,0.9804349
+n03201208_33935,diningtable,Diningtable with four chairs and ceramic bowls,Diningtable set with four chairs and placemats,0.31715846,0.33719924,0.10405936,0.9446948
+n03062245_947,bottle,Glass bottle with a metal lid on carpet,Glass bottle with a metal lid on carpet,0.30901328,0.30901328,0.1203966,1.0
+2008_004802,aeroplane,Aeroplane taxiing on green grass runway,Aeroplane being towed on airport runway,0.2804569,0.28892562,0.15622868,0.93905616
+n02791124_499,chair,Barber chair with brown leather and wood,Barber chair with brown leather and wood,0.34725207,0.34725207,0.08937088,1.0
+001233,cat,Cat sitting by a sunlit window,Cat sitting on a windowsill indoors,0.29319632,0.29609248,0.22468019,0.9339335
+003212,sofa,Beige sofa against a plain wall,Beige sofa against a plain wall,0.3357609,0.3357609,0.20865391,1.0
+007123,train,Train leaving sheds near green forested hills,Train leaving sheds near green forested hills,0.31194597,0.31194597,0.1397941,1.0
+n03785016_25096,motorbike,Motorbike parked on a city sidewalk,Red motorbike parked on a paved walkway,0.2896621,0.30354792,0.16883753,0.9494113
+003814,cat,Cat lying on carpet near furniture,Cat stretching out on a patterned carpet,0.2974381,0.31582478,0.0951121,0.93503064
+2011_002885,cow,Black cow grazing on green grassy field,Black cow grazing on green grassy field,0.3226347,0.3226347,0.14222321,1.0
+006324,car,Car parked at a forest campsite area,Car parked at a forest campsite area,0.30380327,0.30380327,0.15346964,1.0
+2008_007840,dog,Dog walking on a leaf covered path,Two dogs meeting on a dirt path,0.26817417,0.3066298,0.08425096,0.9296995
+n02410509_13609,cow,Cow grazing on green grassy field,Cow resting on grass beneath another cow,0.27447098,0.2918505,0.12278046,0.90944344
+2009_000745,cat,Cat lounging on a decorative pillow,Cat lounging on a bag of litter,0.25682962,0.28999227,0.14769828,0.9532256
+n03201208_30093,diningtable,Diningtable with four chairs on wood floor,Diningtable with lace cloth and four chairs,0.3269144,0.32872054,0.10477088,0.9398656
+002998,train,Steam train passing by an old station building,Steam train passing by an old station building,0.31620234,0.31620234,0.13232128,1.0
+n11939491_6707,flower,White flower with yellow center in garden,White daisy flower with green foliage,0.32042563,0.3446251,0.14516541,0.9128469
+n03785016_2527,motorbike,Classic motorbike parked by a grassy roadside,White motorbike on display at an event,0.28856474,0.29925954,0.1938186,0.9133745
+n04487081_7432,bus,Bus turning on a city street corner,Blue trolleybus driving down a city street,0.29727912,0.32615352,0.13354343,0.9228486
+2009_003196,motorbike,Motorbike parked on a rural roadside,Motorbike parked on a gravel surface,0.25654978,0.27136517,0.15366235,0.9621227
+n03201208_6679,diningtable,Modern diningtable with cream upholstered chairs,Modern diningtable with cream upholstered chairs,0.3414101,0.3414101,0.097292185,1.0
+002078,bicycle,Old bicycle parked on grassy ground,Old bicycle parked on grassy ground,0.31880045,0.31880045,0.18374787,0.99999994
+006382,horse,Horse standing by a metal fence outdoors,Brown horse standing in a fenced enclosure,0.32447314,0.32517222,0.15309267,0.9259784
+n04483307_4991,boat,Boat with colorful sails gliding on ocean,Racing boat gliding swiftly on ocean water,0.2953301,0.29888314,0.06804933,0.9372031
+n02389026_5653,horse,Young horse foal trotting on green grass,Young horse foal trotting on green grass,0.30814508,0.30814508,0.10398734,1.0
+2008_004024,bird,Bird perched on a branch under blue sky,Bird perched on a branch under blue sky,0.29915056,0.29915056,0.13212742,1.0
+2010_005011,dog,Dog running past an old brick building,Dog running past an old brick building,0.3016749,0.3016749,0.086339176,1.0
+2010_003112,person,Three people in matching vests and bowties,Three people in matching vests and bowties,0.32450286,0.32450286,0.16375159,1.0
+n11939491_49356,flower,White daisy flower surrounded by green grass,Flower with white petals surrounded by grass,0.35535347,0.35751235,0.15072115,0.9275584
+2010_004031,person,Two people smiling beside wooden paneled walls,Two people smiling beside wooden paneled walls,0.2847857,0.2847857,0.10693833,1.0
+2009_005267,cow,Cow standing near green hedges and trees,Cow standing near green hedges and trees,0.3282299,0.3282299,0.17141068,1.0
+009947,boat,Sailboat gliding on calm lake water,Boat with tall sails on open water,0.30961153,0.31641525,0.16344741,0.91124755
+2008_002292,bottle,Champagne bottle on a smooth surface,Champagne bottle on a smooth surface,0.28440738,0.28440738,0.114302315,1.0
+003269,bottle,Bottle of soda beside water bottles on shelf,Bottle of soda among other glass bottles,0.28419352,0.30384946,0.12652725,0.9268528
+n02835271_11906,bicycle,Tandem bicycle parked on a porch,Tandem bicycle on kitchen tile floor,0.293182,0.30983257,0.09757218,0.93295604
+2009_002605,dog,Small white dog held inside a room,Dog in a sweater standing on table,0.28599045,0.29889634,0.127541,0.90558064
+n11939491_6545,flower,Pink flower against a vivid pink backdrop,Pink flower against a vivid pink backdrop,0.29518747,0.29518747,0.18525325,1.0
+n11939491_6228,flower,White flower with yellow center among grass,White daisy flower surrounded by green grass,0.33840805,0.3573015,0.14625566,0.9022273
+003097,train,Two orange BNSF trains on railroad tracks,Two orange BNSF trains on railroad tracks,0.37221083,0.37221083,0.039789684,0.99999994
+n02835271_2570,bicycle,Tandem bicycle parked on a sidewalk,Bicycle with orange pannier on wooden floor,0.3096559,0.32293844,0.102439195,0.89210546
+n11939491_23775,flower,White and yellow flower among pink petals,White and yellow flower among pink petals,0.32423663,0.32423663,0.17763771,1.0
+n03201208_432,diningtable,Wooden diningtable surrounded by matching chairs,Round diningtable with four wooden chairs,0.3244661,0.3485393,0.05594055,0.93281513
+000820,sheep,Sheep resting on green grassy field,Sheep with curled horns standing on grass,0.29337692,0.34482476,0.16114642,0.92250144
+2008_005300,cat,Cat stretching out on a patterned carpet,Cat stretching out on a patterned carpet,0.36152625,0.36152625,0.17067012,1.0
+2010_000182,cat,Fluffy orange cat held in arms,Fluffy orange cat held in arms,0.31669596,0.31669596,0.16951498,1.0
+2008_002622,person,Person wearing sunglasses and white shirt indoors,Person wearing sunglasses and white shirt indoors,0.30232045,0.30232045,0.11517523,1.0
+2009_003105,train,Blue train traveling along grassy hillside,Train leaving sheds near green forested hills,0.2761588,0.29712117,0.18812197,0.8941683
+n03201208_1480,diningtable,Wooden diningtable with six matching chairs,Wooden diningtable with four cushioned chairs,0.31389225,0.32645345,0.10038213,0.96233994
+006520,bird,Bird perched on a broken tree branch,Bird perched on a wooden branch,0.26810244,0.27732638,0.13731106,0.9688579
+2010_004735,bus,Vintage bus parked on a city street,Orange city bus driving along a leafy street,0.29809386,0.30903956,0.117842175,0.9250511
+005352,dog,Dog standing on a grassy field,Dog standing on a grassy field,0.30336303,0.30336303,0.14439034,1.0000001
+2009_000702,dog,Dog lying on green grass outdoors,Dog lying on green grass outdoors,0.3123932,0.3123932,0.1484917,1.0
+003671,dog,Dog running happily on snowy ground,Dog running happily on snowy ground,0.32949412,0.32949412,0.05774288,1.0000001
+2010_000984,train,Freight train traveling along rural tracks,Freight train passing by a station platform,0.29857916,0.31328428,0.18783662,0.9241911
+003524,bird,Brown bird standing on leafy ground,Brown bird standing on leafy ground,0.30613035,0.30613035,0.09571695,1.0
+n03785016_25076,motorbike,Motorbike parked on a gravel surface,Blue tandem bicycle against a white sheet,0.27622747,0.3147307,0.15628141,0.88498986
+008950,aeroplane,Aeroplane flying high in clear blue sky,Aeroplane flying against a clear blue sky,0.29545054,0.30274335,0.16173758,0.9705945
+2008_003252,chair,Chair with pillow next to a window,Beige sofa beside patterned rug and table,0.2874276,0.29561463,0.267667,0.88426554
+006080,cat,Ginger cat resting against a cream wall,Ginger cat resting against a cream wall,0.28409782,0.28409782,0.17547433,0.99999994
+n11939491_9573,flower,Yellow flower with green blurred surroundings,Yellow flower with green and brown center,0.29837,0.31026003,0.19601494,0.92094994
+2009_000924,sheep,Sheep standing on a grassy field,Sheep standing on lush green grass,0.31067222,0.3114464,0.112887025,0.95919514
+2008_002221,aeroplane,Aeroplane flying high in the clear sky,Aeroplane approaching airport above terminal buildings,0.28975347,0.2951928,0.13189533,0.91064155
+n03983396_6041,bottle,Three grapefruit lemonade bottles in a wicker basket,Three grapefruit lemonade bottles in a wicker basket,0.29650548,0.29650548,0.15843141,1.0
+n04487081_973,bus,Orange bus under electric wires on city street,Orange bus under electric wires on city street,0.33145624,0.33145624,0.13249327,1.0
+003357,car,White car parked on gravel beside vehicles,White car displayed on a modern showroom floor,0.26276892,0.285031,0.17187893,0.898375
+n04344873_7140,sofa,Orange sofa with cozy pillows and rug,Orange sofa with cozy pillows and rug,0.35020655,0.35020655,0.12286104,1.0
+n03983396_6019,bottle,Colorful glass bottle collection on wooden shelves,Vintage soda bottle collection on a wooden shelf,0.31814727,0.33888346,0.15959443,0.94572514
+2010_004346,cat,Cat curled up sleeping in a wicker basket,Cat curled up sleeping in a wicker basket,0.35413837,0.35413837,0.20135868,1.0
+001565,train,Train at a large indoor station platform,Blue Pan Am Railways train beside building,0.27605024,0.29905188,0.15192701,0.8707884
+n03782006_22277,tvmonitor,tvmonitor displaying test pattern and signal data,tvmonitor displaying waveforms beside electronic equipment,0.30893317,0.31955475,0.11669597,0.9035704
+n03201208_7834,diningtable,Diningtable with wooden chairs and cabinet nearby,Round diningtable with four wooden chairs,0.32547742,0.33920762,0.14088342,0.937133
+2011_001169,horse,Horse grazing among rocks and grass,Sheep with large horns on rocky terrain,0.31532264,0.31727064,0.15857685,0.8973143
+009498,bus,Double-decker bus parked beside a grassy park,Bus turning on a quiet suburban street,0.31256944,0.31487873,0.08954054,0.88578665
+n03201208_254,diningtable,Wooden diningtable with glasses and plates,Large wooden diningtable with matching chairs,0.28849065,0.29379007,0.1854832,0.9273768
+n04344873_19773,sofa,White modern sofa with red accent pillows,White modern sofa with red accent pillows,0.34393317,0.34393317,0.14710845,1.0
+2010_002029,dog,Dog lying next to a person indoors,Dog with a green collar indoors,0.24501765,0.27116337,0.17147577,0.9173007
+008349,sheep,Sheep standing on dry grassy ground,Sheep standing on dry grass and dirt,0.32293206,0.33193222,0.17818819,0.9667169
+n03782006_7121,tvmonitor,tvmonitor on wooden desk beside laptop,Dual tvmonitor screens on a computer desk,0.28595623,0.32828063,0.13962539,0.9209317
+n03785016_1020,motorbike,White motorbike parked beside colorful wall,White motorbike parked beside colorful wall,0.28939,0.28939,0.20910546,1.0000001
+n03782006_4182,tvmonitor,Dual tvmonitor setup on a tidy desk,Large tvmonitor on desk with keyboard and mouse,0.3203407,0.32929614,0.12994158,0.9208131
+n04487081_3139,bus,Electric bus on city street among skyscrapers,Electric bus on city street among skyscrapers,0.30435,0.30435,0.16975495,1.0
+2009_000367,aeroplane,Aeroplane on runway near city buildings,Aeroplane taxiing near large airport hangar,0.26523757,0.2825451,0.07497625,0.943048
+006835,person,Person standing beside a red bus,Person standing beside a red bus,0.27182782,0.27182782,0.068278484,1.0
+n11939491_24001,flower,White daisy flower with green foliage,Flower with white petals surrounded by grass,0.36391866,0.37042385,0.16010685,0.89741737
+n03376595_4241,chair,Black folding sports chair on plain floor,Black folding sports chair on plain floor,0.327397,0.327397,0.2643852,0.99999994
+n04487081_14157,bus,Bus parked on a quiet green street,Bus driving on tree-lined suburban street,0.29489416,0.32093662,0.14949241,0.9289589
+2010_000317,cat,Fluffy cat resting on a plastic crate,Fluffy cat resting on a plastic crate,0.31096074,0.31096074,0.13807628,1.0
+006442,person,Person sitting on bench with child outdoors,Person sitting on bench with child outdoors,0.28121763,0.28121763,0.18511608,1.0
+n04487081_7312,bus,Bus traveling down a snowy city street,Bus turning on a quiet suburban street,0.31351584,0.31529593,0.088444516,0.9215952
+2009_000130,bottle,A wine bottle on a white table,A wine bottle on a white table,0.29791665,0.29791665,0.17028202,1.0
+n04152593_31103,tvmonitor,Multiple tvmonitors surrounded by old computers,Multiple tvmonitors surrounded by old computers,0.3297751,0.3297751,0.087794185,1.0
+2010_003329,bottle,Clear glass bottle on a wooden table,Bottle with pink label on dining table,0.2641036,0.3011853,0.23726705,0.91173315
+005246,bird,Bird with white head near wire fence,Bird eating from a person's hand outdoors,0.25657383,0.26723617,0.12973621,0.88358223
+n03201208_12293,diningtable,Wood diningtable with chairs on a driveway,Round diningtable with four wooden chairs,0.28318176,0.3133776,0.28791803,0.9368799
+2010_003974,cat,Cat sitting on a blue fabric chair,Cat face close-up with long whiskers,0.24466926,0.29915154,0.12374091,0.8836126
+2010_002900,cat,Fluffy black cat resting on a sofa,Fluffy black cat resting on a sofa,0.3174622,0.3174622,0.123443365,0.99999994
+n03201208_4680,diningtable,Wooden diningtable with chairs and glass cabinet,Diningtable with metallic decor and wooden chairs,0.28381854,0.3034,0.083702385,0.9286245
+n03201208_19794,diningtable,Black diningtable with cushioned chairs nearby windows,Black diningtable with cushioned chairs nearby windows,0.32904154,0.32904154,0.18793784,1.0
+2009_003607,sofa,Sofa with pillows on wooden floor,Beige sofa with dark wooden armrests,0.31688973,0.32059515,0.14050342,0.88812333
+n03201208_46715,diningtable,Wooden diningtable with natural edges and six chairs,Wooden diningtable with glasses and plates,0.30262938,0.31957692,0.12840801,0.93053675
+2011_001004,car,Classic mint green car parked by wall,Classic mint green car parked by wall,0.28820032,0.28820032,0.14415789,0.99999994
+n11939491_57527,flower,Pink flower blooming among green leaves,Pink flower with yellow center petals,0.3065374,0.33338106,0.15184037,0.88919973
+2008_005379,dog,Dog sitting on pavement next to person,Dog standing on a brick patio tiles,0.26133427,0.26805684,0.17695363,0.8961265
+n02835271_317,bicycle,Tandem bicycle on a gravel surface,Bicycle with yellow rims on a red mat,0.28670746,0.3215709,0.16926965,0.9044378
+002603,bird,Bird standing on grassy ground near bushes,Bird standing on rocky ground with shrubs,0.31305397,0.3185469,0.17905799,0.9431151
+n02410509_7854,cow,Cow lying down in tall green grass,Cow lying down in tall green grass,0.3320387,0.3320387,0.27653173,1.0000001
+n03201208_32294,diningtable,Wooden diningtable with cushioned chairs and art,Diningtable set with four chairs and placemats,0.30602342,0.3318243,0.11685559,0.9029898
+2010_005303,person,Two people posing together in a room,Two people posing together in a room,0.24618486,0.24618486,0.14128274,1.0
+2010_004551,bottle,Green bottle on a wooden table,Green bottle on a wooden table,0.3095667,0.3095667,0.15679787,1.0
+n03376595_606,chair,Wooden chair reclining on a tiled patio,Wooden chair reclining on a tiled patio,0.33093065,0.33093065,0.16811913,1.0
+n03785016_25379,motorbike,Motorbike parked on cobblestone sidewalk,Motorbike parked on cobblestone sidewalk,0.28353652,0.28353652,0.15331534,0.99999994
+n04487081_2498,bus,Bus driving past houses on quiet street,Bus turning on a street near tall trees,0.28645703,0.3073873,0.12753603,0.91910636
+n03376595_4469,chair,Striped folding chair on a concrete floor,Striped folding chair on a concrete floor,0.33640927,0.33640927,0.13469681,1.0
+n02412080_2713,sheep,Sheep standing on cobblestone path and grass,Sheep standing on cobblestone path and grass,0.3359116,0.3359116,0.15264055,1.0
+2008_005477,bird,Green bird with closed eyes indoors,Green bird with closed eyes indoors,0.33335865,0.33335865,0.18228431,1.0
+2008_005473,horse,Three horses grazing in a grassy field,Three horses grazing and resting near trees,0.29145193,0.30846247,0.21323694,0.9402963
+n11939491_19516,flower,White flower blossoming among green leaves,White daisy flower with green foliage,0.271586,0.33471614,0.22747737,0.9202829
