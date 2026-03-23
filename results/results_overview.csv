@@ -1,0 +1,5 @@
+model,parameters,best_epoch,val_acc,test_acc,chance,notes
+Baseline MLP,~757K,,0.0850,0.0873,0.05,Flat MLP with per-subject heads
+EEGNet (no aug),35996,15,0.0879,0.0933,0.05,Depthwise-separable CNN with per-subject heads
+EEGNet (with aug v1),35996,13,0.0850,0.0946,0.05,Added Gaussian noise + temporal shift + channel dropout + amplitude scaling
+CNN-Transformer,1252504,,0.0500,0.0500,0.05,BROKEN — at chance level — 35x overparameterized
