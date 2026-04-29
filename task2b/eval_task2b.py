@@ -46,9 +46,9 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader
 
 # Project modules
-from model import ATMConfig, ATMClassifier
-from dataset_clip import build_clip_datasets, clip_collate
-from model_clip import ProjectionHead
+from shared.atm.model import ATMConfig, ATMClassifier
+from shared.atm.task2b.dataset_clip import build_clip_datasets, clip_collate
+from shared.atm.task2b.model_clip import ProjectionHead
 
 
 # ----------------------------------------------------------------------------

@@ -1,0 +1,423 @@
+\documentclass{article}
+
+\usepackage[final]{neurips_2019}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{graphicx}
+
+\title{EEG-Image Classification and EEG-Based Caption Retrieval:\\Midterm Report}
+
+\author{%
+  Raghav \\
+  Carnegie Mellon University\\
+  \And
+  Shrirang \\
+  Carnegie Mellon University\\
+  \And
+  Srushti \\
+  Carnegie Mellon University\\
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This report presents our midterm progress on two complementary tasks in neural decoding: (1)~classifying visual object categories from electroencephalography (EEG) signals and (2)~retrieving image captions from EEG-derived embeddings aligned with CLIP's multimodal space. For Task~1 we implement a fully connected baseline MLP (8.73\% test accuracy) and an EEGNet-based architecture (9.46\% test accuracy) on 20-class classification (chance = 5\%), comparing both against each other across multiple training configurations. For Task~2A we evaluate a pretrained CLIP model (ViT-B/32) on image-to-caption retrieval over 982 test images, achieving an instance-level Recall@1 of 43.6\%, a class-aware MAP of 0.844, and a mean BERTScore~F1 of 0.955. We analyze retrieval behavior across categories, identify failure patterns, and outline plans for EEG--CLIP alignment (Task~2B).
+\end{abstract}
+
+%---------------------------------------------------------------------
+\section{Introduction}
+\label{sec:intro}
+%---------------------------------------------------------------------
+
+Decoding visual perception from brain activity is a long-standing goal at the intersection of neuroscience and machine learning. Electroencephalography (EEG) provides a non-invasive, temporally rich window into neural processing, yet its low spatial resolution and high inter-subject variability make decoding challenging. Recent work by Wang et al.~\cite{wang2025eeg} introduced a large-scale multi-subject, multi-session EEG dataset recorded while participants viewed images from 20 object categories, enabling systematic investigation of EEG-based visual decoding.
+
+We address two tasks using this dataset. \textbf{Task~1} frames EEG decoding as a 20-way classification problem: given an EEG trial recorded while a subject views an image, predict its object category. \textbf{Task~2} extends the pipeline to caption retrieval by aligning EEG representations with CLIP's~\cite{radford2021clip} joint vision--language embedding space. Task~2 is divided into (a)~an image-caption retrieval warm-up using pretrained CLIP and (b)~EEG-caption retrieval via a learned projection into CLIP's text space.
+
+This midterm report covers our progress on Task~1 (baseline implementation and architecture comparison) and Task~2A (CLIP image-caption retrieval evaluation). We present the data pipeline, model architectures, evaluation metrics, results, and a plan for EEG--CLIP alignment in the remaining project period.
+
+%---------------------------------------------------------------------
+\section{Related Work}
+\label{sec:related}
+%---------------------------------------------------------------------
+
+\textbf{EEG visual decoding.}
+Wang et al.~\cite{wang2025eeg} validated their multi-subject EEG dataset using a fully connected neural network, achieving roughly 10\% within-session accuracy on 20-class classification (chance = 5\%). Performance varied considerably across subjects (up to $\sim$16\% for the best subjects) and degraded further in cross-session and cross-subject settings, underscoring the difficulty of generalizing across recording conditions.
+
+\textbf{EEGNet.}
+Lawhern et al.~\cite{lawhern2018eegnet} proposed EEGNet, a compact convolutional neural network for EEG-based brain--computer interfaces. EEGNet uses depthwise and separable convolutions to efficiently learn temporal and spatial filters directly from raw EEG, achieving competitive performance across multiple BCI paradigms with significantly fewer parameters than conventional architectures. We adopt EEGNet as our primary classification model for Task~1.
+
+\textbf{Contrastive Language--Image Pretraining (CLIP).}
+Radford et al.~\cite{radford2021clip} introduced CLIP, which learns a shared embedding space for images and text via contrastive learning on 400~million image--text pairs. CLIP's dual-encoder architecture produces normalized embeddings whose cosine similarity measures semantic relatedness, enabling zero-shot classification and cross-modal retrieval. We leverage CLIP both as an evaluation tool (Task~2A) and as a target embedding space for EEG alignment (Task~2B).
+
+\textbf{Knowledge distillation for CLIP alignment.}
+Liu et al.~\cite{liu2023clipkd} surveyed strategies for distilling CLIP's knowledge into smaller or domain-specific student networks, including feature-based, similarity-based, and logit-based objectives. Their findings inform our planned approach for projecting EEG embeddings into CLIP's text space using cosine alignment and KL-divergence losses.
+
+%---------------------------------------------------------------------
+\section{Dataset}
+\label{sec:dataset}
+%---------------------------------------------------------------------
+
+We use the multi-subject, multi-session EEG dataset from Wang et al.~\cite{wang2025eeg}, focusing on the \texttt{low-speed} paradigm (1-second stimulus presentation). The dataset comprises EEG recordings from 13 subjects, each completing 5 sessions of 4 runs with 100 trials per run, yielding 26{,}000 total trials. Each trial produces a $122 \times 500$ matrix (122 scalp electrodes, 500~ms at 1000~Hz after epoching). Stimuli span 20 object categories (500 images each, 10{,}000 total) drawn from PASCAL~VOC and ImageNet, with associated natural-language captions.
+
+\textbf{Preprocessing.} The EEG data were bandpass filtered (0.1--100~Hz), notch filtered at 50~Hz, and epoched from 0--500~ms post-stimulus onset, following the procedures of the original study using MNE-Python~\cite{gramfort2014mne}.
+
+\textbf{Train/validation/test split.} For each subject, we assign sessions 1--3 for training, session~4 for validation, and session~5 for testing. This session-based split ensures temporal separation and prevents data leakage.
+
+\textbf{Data loading pipeline.} For each run, we load the \texttt{.npy} EEG array and the corresponding \texttt{\_image.csv} metadata file, extract image filenames, merge with \texttt{captions.txt} to obtain captions and category labels, and verify trial-count alignment between modalities.
+
+%---------------------------------------------------------------------
+\section{Method}
+\label{sec:method}
+%---------------------------------------------------------------------
+
+\subsection{Task 1: EEG Classification}
+
+\subsubsection{Evaluation Metric}
+
+We use \textbf{top-1 classification accuracy} as the primary evaluation metric for Task~1, defined as the fraction of test trials for which the predicted category matches the ground-truth label:
+\begin{equation}
+    \text{Accuracy} = \frac{1}{N}\sum_{i=1}^{N}\mathbf{1}[\hat{y}_i = y_i],
+\end{equation}
+where $\hat{y}_i$ is the predicted class and $y_i$ is the true class. With 20 categories, chance-level accuracy is 5\%.
+
+\subsubsection{Loss Function}
+
+All Task~1 models are trained with \textbf{cross-entropy loss}:
+\begin{equation}
+    \mathcal{L}_{\text{CE}} = -\frac{1}{N}\sum_{i=1}^{N}\log \frac{\exp(z_{i,y_i})}{\sum_{c=1}^{C}\exp(z_{i,c})},
+\end{equation}
+where $z_{i,c}$ denotes the logit for sample $i$ and class $c$, and $C=20$ is the number of categories.
+
+\subsubsection{Baseline: Fully Connected Network (MLP)}
+
+Following Wang et al.~\cite{wang2025eeg}, our baseline flattens each $122 \times 500$ EEG trial into a 61{,}000-dimensional vector and passes it through a three-layer MLP with ReLU activations and dropout, producing logits over 20 categories. The model has approximately 757K parameters and uses per-subject classification heads.
+
+\subsubsection{EEGNet}
+
+Our primary classification architecture is EEGNet~\cite{lawhern2018eegnet}, a compact CNN designed for EEG signals. EEGNet consists of: (1)~a \textbf{temporal convolution} layer that learns frequency filters from the raw EEG signal; (2)~a \textbf{depthwise convolution} that learns spatial filters across electrodes, capturing channel-specific patterns; and (3)~a \textbf{separable convolution} that combines temporal and spatial features efficiently. The architecture uses batch normalization and dropout between layers, with an average pooling operation before a final linear classification layer. With only $\sim$36K parameters, EEGNet is over 20$\times$ more parameter-efficient than the baseline MLP while being specifically designed to exploit the spatiotemporal structure of EEG data. We use per-subject classification heads as in the baseline.
+
+\subsubsection{Model Comparison}
+
+Table~\ref{tab:models} summarizes the architectures explored for Task~1.
+
+\begin{table}[h]
+  \caption{Task~1 model architectures and parameter counts.}
+  \label{tab:models}
+  \centering
+  \small
+  \begin{tabular}{lccc}
+    \toprule
+    Model & Parameters & Architecture & Status \\
+    \midrule
+    Baseline MLP       & $\sim$757K  & 3-layer FC + per-subject heads & Completed \\
+    EEGNet             & $\sim$36K   & Depthwise-separable CNN + per-subject heads & Completed \\
+    CNN--Transformer   & $\sim$1.25M & 1D CNN + Transformer + per-subject heads & Failed (at chance) \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Task 2A: Image-Caption Retrieval with CLIP}
+\label{sec:clip_retrieval}
+
+Before aligning EEG with text, we establish a retrieval performance upper bound using CLIP's pretrained image encoder.
+
+\subsubsection{CLIP Background}
+
+CLIP~\cite{radford2021clip} consists of an image encoder $f_\theta$ (Vision Transformer or ResNet) and a text encoder $g_\phi$ (Transformer), each mapping inputs to a $d$-dimensional space. Both embeddings are $\ell_2$-normalized, and their similarity is computed as:
+\begin{equation}
+    \text{sim}(I, T) = \mathbf{img}_z^\top \mathbf{txt}_z, \quad \text{where } \mathbf{img}_z = \frac{f_\theta(I)}{\|f_\theta(I)\|_2}, \quad \mathbf{txt}_z = \frac{g_\phi(T)}{\|g_\phi(T)\|_2}.
+\end{equation}
+
+During pretraining, CLIP processes batches of $N$ image--text pairs and computes an $N \times N$ similarity matrix $S_{ij} = \mathbf{img}_{z,i}^\top \mathbf{txt}_{z,j}$, scaled by a learned temperature $\tau$. A symmetric cross-entropy loss maximizes diagonal entries (correct matches) while minimizing off-diagonal entries:
+\begin{equation}
+    \mathcal{L} = \frac{1}{2}\left(\mathcal{L}_{i \to t} + \mathcal{L}_{t \to i}\right), \quad \mathcal{L}_{i \to t} = -\frac{1}{N}\sum_{i=1}^{N}\log\frac{\exp(S_{ii}/\tau)}{\sum_{j=1}^{N}\exp(S_{ij}/\tau)}.
+\end{equation}
+
+\subsubsection{Implementation}
+
+We load the \texttt{openai/clip-vit-base-patch32} model from Hugging Face Transformers. For every image in our dataset, we compute a 512-dimensional image embedding using CLIP's frozen image encoder. For every caption in \texttt{captions.txt}, we compute a 512-dimensional text embedding using CLIP's frozen text encoder. All embeddings are $\ell_2$-normalized.
+
+\textbf{Retrieval procedure.} Given a query image $I$, we compute cosine similarities between its image embedding and all $M$ caption embeddings in the candidate pool. Captions are ranked by descending similarity, and the top-$K$ results are returned. We evaluate on our test split (982 unique test images), using the full caption pool for retrieval.
+
+\subsubsection{Evaluation Metrics}
+\label{sec:eval_metrics}
+
+\textbf{Recall@K} measures the fraction of queries for which the correct caption appears in the top-$K$ retrieved results. We report both \emph{instance-level} (exact caption match) and \emph{class-aware} (any same-category caption) variants at $K \in \{1, 3, 5\}$.
+
+\textbf{BERTScore}~\cite{zhang2020bertscore} computes token-level cosine similarity between BERT embeddings of a candidate and reference caption, yielding an F1 score that captures semantic similarity beyond exact word overlap.
+
+\textbf{CLIPScore} measures the cosine similarity between the image embedding and the text embedding of retrieved or ground-truth captions. We compare distributions for matched, retrieved, and random pairs.
+
+\textbf{Mean Average Precision (MAP)} summarizes ranking quality. We report caption-level MAP, class-aware MAP (any same-class caption is relevant), and per-class MAP.
+
+%---------------------------------------------------------------------
+\section{Results}
+\label{sec:results}
+%---------------------------------------------------------------------
+
+\subsection{Task 1: EEG Classification}
+
+\subsubsection{Baseline Comparison}
+
+Table~\ref{tab:task1_results} summarizes results for all Task~1 models. Our baseline MLP achieves 8.73\% test accuracy, above the 5\% chance level. EEGNet improves upon this to 9.46\% with over 20$\times$ fewer parameters.
+
+\begin{table}[h]
+  \caption{Task~1 classification results. All models use per-subject heads trained with cross-entropy loss.}
+  \label{tab:task1_results}
+  \centering
+  \small
+  \begin{tabular}{lcccc}
+    \toprule
+    Model & Parameters & Val Acc (\%) & Test Acc (\%) & Chance (\%) \\
+    \midrule
+    Baseline MLP              & $\sim$757K  & 8.50 & 8.73 & 5.0 \\
+    EEGNet (no augmentation)  & $\sim$36K   & 8.79 & 9.33 & 5.0 \\
+    EEGNet (with augmentation)& $\sim$36K   & 8.50 & 9.46 & 5.0 \\
+    CNN--Transformer          & $\sim$1.25M & 5.00 & 5.00 & 5.0 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsubsection{EEGNet Augmentation Experiments}
+
+We trained EEGNet under two configurations to evaluate the effect of data augmentation:
+\begin{itemize}
+    \item \textbf{No augmentation}: Standard training, achieving 9.33\% test accuracy (best epoch: 15).
+    \item \textbf{With augmentation}: Gaussian noise, temporal shift, channel dropout, and amplitude scaling, achieving 9.46\% test accuracy (best epoch: 13).
+\end{itemize}
+Augmentation provides a modest improvement (+0.13\%) and converges slightly faster, suggesting that regularization helps in the low-signal EEG regime.
+
+\subsubsection{Training Curves}
+
+Figure~\ref{fig:task1_curves} shows training and validation loss/accuracy curves for the baseline MLP and EEGNet.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.48\textwidth]{baseline_mlp_curves.png}
+  \includegraphics[width=0.48\textwidth]{eegnet_curves.png}
+  \caption{Training curves for baseline MLP (left) and EEGNet (right). Both models converge, with EEGNet showing more stable training despite having far fewer parameters.}
+  \label{fig:task1_curves}
+\end{figure}
+
+\subsubsection{Confusion Matrices}
+
+Figure~\ref{fig:task1_confusion} shows test-set confusion matrices for both models. Both exhibit difficulty distinguishing visually similar categories, with predictions skewing toward a few dominant classes.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.48\textwidth]{baseline_mlp_confusion.png}
+  \includegraphics[width=0.48\textwidth]{eegnet_confusion.png}
+  \caption{Test confusion matrices for baseline MLP (left) and EEGNet (right). Both models struggle with inter-class discrimination, consistent with the inherent difficulty of 20-way EEG classification.}
+  \label{fig:task1_confusion}
+\end{figure}
+
+\subsubsection{CNN--Transformer: Failed Experiment}
+
+We also implemented a CNN--Transformer architecture ($\sim$1.25M parameters) consisting of a 1D convolutional feature extractor, a shared Transformer backbone over electrode embeddings, and per-subject classification heads. This model failed to learn, remaining at chance level (5.0\%) throughout training. We attribute this to over-parameterization ($\sim$35$\times$ more parameters than EEGNet for the same data) leading to optimization difficulties. This negative result motivates our focus on compact architectures like EEGNet for EEG classification.
+
+\subsection{Task 2A: CLIP Image-Caption Retrieval}
+
+We evaluate CLIP image-to-caption retrieval on 982 test images spanning all 20 categories.
+
+\subsubsection{Recall@K Analysis}
+
+Figure~\ref{fig:recall} shows instance-level and class-aware Recall@K for both retrieval directions.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{recall_at_k.png}
+  \caption{Recall@K for image$\to$caption (left) and caption$\to$image (right) retrieval. The large gap between instance-level (blue) and class-aware (orange) recall indicates CLIP reliably identifies the correct category but struggles to distinguish individual captions within a category.}
+  \label{fig:recall}
+\end{figure}
+
+Instance-level Recall@1 is 43.6\%, rising to approximately 65\% at $K=3$ and 75\% at $K=5$. Class-aware Recall@1 reaches $\sim$97\%, indicating that nearly all top-1 retrievals belong to the correct semantic category even when the exact caption is not returned. This large gap confirms that CLIP captures category-level semantics robustly but has limited ability to discriminate between similar captions within the same category---an expected behavior given that many within-category captions describe visually similar content.
+
+\subsubsection{Similarity Matrix}
+
+Figure~\ref{fig:simmat} shows the CLIP similarity matrix for the first 50 test samples. The bright diagonal confirms that matched image--caption pairs consistently receive higher similarity scores than mismatched pairs, though off-diagonal clusters reflecting within-category similarity are visible.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.55\textwidth]{similarity_matrix.png}
+  \caption{CLIP cosine similarity matrix for 50 test samples. Diagonal entries (correct pairs) are consistently brighter, with off-diagonal clusters reflecting within-category similarity.}
+  \label{fig:simmat}
+\end{figure}
+
+\subsubsection{BERTScore Analysis}
+
+The mean BERTScore F1 between the top-1 retrieved caption and the ground-truth caption is \textbf{0.955}, with 100\% of retrievals exceeding the F1 $> 0.7$ threshold (Figure~\ref{fig:bertscore}). The spike at F1 = 1.0 corresponds to exact-match retrievals (43.6\% of queries), while the remaining retrievals cluster between 0.85--0.98, reflecting captions that describe very similar visual content.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.7\textwidth]{bertscore_histogram.png}
+  \caption{Distribution of BERTScore F1 between top-1 retrieved and ground-truth captions. Mean = 0.955. All retrievals exceed the 0.7 threshold, with a spike at 1.0 for exact matches.}
+  \label{fig:bertscore}
+\end{figure}
+
+Figure~\ref{fig:bertscore_cat} shows per-category BERTScore F1 distributions. All categories maintain medians above 0.90, with ``person'' achieving the highest median ($\sim$0.99) due to its uniform caption structure, while categories with more diverse visual content (e.g., ``boat,'' ``tvmonitor'') show wider variance.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{bertscore_per_category.png}
+  \caption{BERTScore F1 distribution by category (sorted by MAP). All categories remain well above the 0.7 threshold, with per-category medians ranging from 0.91 to 0.99.}
+  \label{fig:bertscore_cat}
+\end{figure}
+
+\subsubsection{CLIPScore Distribution}
+
+Figure~\ref{fig:clipscore} compares CLIPScore distributions for matched, retrieved, and random image--caption pairs. The mean CLIPScore for matched pairs is 0.303, for top-1 retrieved pairs is 0.314, and for random (mismatched) pairs is 0.146. The matched and retrieved distributions overlap almost entirely (left panel), confirming that retrieved captions are nearly as semantically aligned as ground-truth captions. The clear separation from random pairs (right panel) demonstrates that CLIP's similarity scores meaningfully distinguish correct from incorrect pairings, providing an encouraging signal for EEG--CLIP alignment.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{clipscore_distributions.png}
+  \caption{CLIPScore distributions. Left: matched vs.\ retrieved (top-1) pairs overlap closely. Right: matched and retrieved pairs are clearly separated from random (mismatched) pairs (mean 0.303/0.314 vs.\ 0.146).}
+  \label{fig:clipscore}
+\end{figure}
+
+Notably, the retrieved CLIPScore (0.314) slightly exceeds the matched CLIPScore (0.303). This is expected: the retrieval procedure selects the caption maximizing cosine similarity, which may not always be the ground-truth caption but can be an equally valid description.
+
+\subsubsection{Per-Class MAP}
+
+Figure~\ref{fig:map} shows class-aware MAP for each of the 20 categories. The overall class-aware MAP is \textbf{0.844}. Categories with visually distinctive content achieve the highest MAP: ``flower'' (0.978), ``tvmonitor'' (0.971), and ``aeroplane'' (0.964). In contrast, ``person'' has the lowest MAP (0.539) despite the highest instance R@1 (83.3\%), because person images are visually diverse, causing substantial within-category spread in CLIP's embedding space.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{per_class_map.png}
+  \caption{Per-class MAP (class-aware) for image$\to$caption retrieval. Overall = 0.844. Visually distinctive categories (flower, tvmonitor) achieve highest MAP; visually diverse categories (person, car) are lowest.}
+  \label{fig:map}
+\end{figure}
+
+Table~\ref{tab:per_cat} reports per-category metrics for the top-5 and bottom-3 categories by MAP.
+
+\begin{table}[h]
+  \caption{Per-category retrieval metrics (top-5 and bottom-3 by class-aware MAP).}
+  \label{tab:per_cat}
+  \centering
+  \small
+  \begin{tabular}{lccccc}
+    \toprule
+    Category & Count & Inst. R@1 & Class MAP & BERTScore F1 & CLIPScore \\
+    \midrule
+    flower       & 57 & 0.281 & 0.978 & 0.944 & 0.316 \\
+    tvmonitor    & 50 & 0.280 & 0.971 & 0.933 & 0.312 \\
+    aeroplane    & 55 & 0.273 & 0.964 & 0.954 & 0.283 \\
+    diningtable  & 59 & 0.288 & 0.955 & 0.951 & 0.313 \\
+    bicycle      & 56 & 0.429 & 0.942 & 0.950 & 0.310 \\
+    \midrule
+    sheep        & 51 & 0.216 & 0.724 & 0.937 & 0.281 \\
+    car          & 35 & 0.686 & 0.705 & 0.979 & 0.288 \\
+    person       & 42 & 0.833 & 0.539 & 0.985 & 0.290 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+An interesting pattern emerges: categories with low instance R@1 (flower 0.281, aeroplane 0.273) can have very high class-aware MAP ($>$0.96), meaning CLIP confuses images \emph{within} these categories but rarely confuses them with other categories. Conversely, ``person'' achieves 83.3\% instance R@1 but only 0.539 MAP, suggesting that when exact matching fails, retrieved captions often come from unrelated categories.
+
+\subsubsection{Qualitative Examples}
+
+Figure~\ref{fig:qualitative} shows representative retrieval examples including both successful matches and failure cases where CLIP retrieves captions from the correct category but not the exact match, or occasionally confuses visually similar categories.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{qualitative_examples.png}
+  \caption{Qualitative retrieval examples showing [true category]$\to$[retrieved category]. MATCH indicates the retrieved caption's category matches the query image's true category.}
+  \label{fig:qualitative}
+\end{figure}
+
+%---------------------------------------------------------------------
+\section{Discussion}
+\label{sec:discussion}
+%---------------------------------------------------------------------
+
+\textbf{Task~1 findings.}
+EEGNet (9.46\%) outperforms the baseline MLP (8.73\%) with 20$\times$ fewer parameters, confirming that architectures exploiting the spatiotemporal structure of EEG are more effective than flat fully connected networks. Data augmentation provides a small but consistent improvement. The CNN--Transformer's failure at 1.25M parameters highlights that larger models do not automatically improve EEG classification---the low signal-to-noise ratio of EEG data favors compact, well-regularized architectures.
+
+\textbf{Key findings from Task~2A.}
+CLIP demonstrates strong category-level retrieval (class-aware MAP = 0.844, class-aware R@1 $\approx$ 97\%) but limited instance-level discrimination (instance R@1 = 43.6\%). The high BERTScore F1 (0.955) confirms retrieved captions are nearly always semantically appropriate. The clear CLIPScore separation between matched/retrieved and random pairs (0.303/0.314 vs.\ 0.146) provides an encouraging signal for EEG--CLIP alignment: even approximate alignment should yield meaningful retrieval given this margin.
+
+\textbf{Implications for EEG-caption retrieval.}
+The ``person'' category's low MAP despite high R@1 highlights that visually diverse categories may present particular challenges for EEG-based retrieval. The strong category-level clustering suggests class-aware metrics may be more appropriate for evaluating EEG-based retrieval given the expected noise in brain signal decoding.
+
+%---------------------------------------------------------------------
+\section{Future Directions}
+\label{sec:future}
+%---------------------------------------------------------------------
+
+\textbf{1.\ Fix and improve Task~1 classification.}
+We will debug the CNN--Transformer architecture (investigating learning rate schedules, gradient clipping, and reduced model capacity) and explore additional architectures such as CNN-LSTM hybrids. We will also conduct per-subject analysis to understand inter-subject variability.
+
+\textbf{2.\ EEG--CLIP alignment (Task~2B).}
+We will add a trainable projection head on top of our best Task~1 EEG encoder to map its output into CLIP's 512-dimensional text embedding space, trained with cosine similarity loss and KL-divergence-based logit distillation.
+
+\textbf{3.\ CLIP fine-tuning strategies.}
+We will compare: (a)~frozen CLIP with only the projection head trained, (b)~partial unfreezing of CLIP's last transformer layer, and (c)~LoRA~\cite{hu2021lora} applied to CLIP's text encoder.
+
+%---------------------------------------------------------------------
+\section{Team Contributions}
+\label{sec:contributions}
+%---------------------------------------------------------------------
+
+\begin{itemize}
+    \item \textbf{Raghav}: Data pipeline implementation and baseline MLP model.
+    \item \textbf{Shrirang}: CLIP-based image-caption retrieval system (Task~2A).
+    \item \textbf{Srushti}: EEGNet implementation and research on alternative architectures.
+\end{itemize}
+
+\textbf{GitHub:} \url{https://github.com/sraghav12/eeg-project}
+
+%---------------------------------------------------------------------
+\section*{References}
+%---------------------------------------------------------------------
+
+\small
+
+\begin{thebibliography}{7}
+
+\bibitem{wang2025eeg}
+Yi Wang, Jing Zhang, Chen Li, Hao Liu, Xiang Li, Xiaoxiao Wu, Han Zhao, Wei Chen, et al.
+A multi-subject and multi-session EEG dataset for modelling human visual object recognition.
+\textit{Scientific Data}, 12(1):843, 2025.
+
+\bibitem{radford2021clip}
+Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, and Ilya Sutskever.
+Learning transferable visual models from natural language supervision.
+In \textit{Proceedings of ICML}, pages 8748--8763, 2021.
+
+\bibitem{lawhern2018eegnet}
+Vernon J. Lawhern, Amelia J. Solon, Nicholas R. Waytowich, Stephen M. Gordon, Chou P. Hung, and Brent J. Lance.
+EEGNet: A compact convolutional neural network for EEG-based brain--computer interfaces.
+\textit{Journal of Neural Engineering}, 15(5):056013, 2018.
+
+\bibitem{liu2023clipkd}
+Meng Liu, Jiacheng Wang, Yifan Lu, et al.
+CLIP-KD: An empirical study of CLIP model distillation.
+\textit{arXiv preprint arXiv:2307.12732}, 2023.
+
+\bibitem{gramfort2014mne}
+Alexandre Gramfort, Martin Luessi, Eric Larson, Denis A. Engemann, et al.
+MNE software for processing MEG and EEG data.
+\textit{NeuroImage}, 86:446--460, 2014.
+
+\bibitem{zhang2020bertscore}
+Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q. Weinberger, and Yoav Artzi.
+BERTScore: Evaluating text generation with BERT.
+In \textit{ICLR}, 2020.
+
+\bibitem{hu2021lora}
+Edward Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, and Weizhu Chen.
+LoRA: Low-rank adaptation of large language models.
+\textit{arXiv preprint arXiv:2106.09685}, 2021.
+
+\end{thebibliography}
+
+\end{document}

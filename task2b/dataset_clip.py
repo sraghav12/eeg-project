@@ -30,8 +30,8 @@ import pandas as pd
 import torch
 from torch.utils.data import Dataset, DataLoader
 
-from dataset import EEGDataset, load_artifacts, build_subject_index
-from dataset import collate as _base_collate  # kept for reference
+from shared.atm.dataset import EEGDataset, load_artifacts, build_subject_index
+from shared.atm.dataset import collate as _base_collate  # kept for reference
 
 
 # ----------------------------------------------------------------------------
@@ -163,7 +163,7 @@ def build_clip_datasets(
          meta: dict)
     """
     import json
-    from dataset import build_datasets as _build_base
+    from shared.atm.dataset import build_datasets as _build_base
 
     # Base datasets (your existing loader)
     train_ds, val_ds, test_ds, sub_to_idx, n_classes = _build_base(

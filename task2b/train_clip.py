@@ -56,13 +56,13 @@ from torch.optim.lr_scheduler import LambdaLR
 from torch.utils.data import DataLoader
 
 # From your existing code
-from model import ATMConfig, ATMClassifier, ATMEncoder
+from shared.atm.model import ATMConfig, ATMClassifier, ATMEncoder
 
 # Task 2B modules
-from dataset_clip import build_clip_datasets, clip_collate
-from losses import (SymmetricInfoNCE, DebiasedInfoNCE, LogitKDLoss,
+from shared.atm.task2b.dataset_clip import build_clip_datasets, clip_collate
+from shared.atm.task2b.losses import (SymmetricInfoNCE, DebiasedInfoNCE, LogitKDLoss,
                     CosineAlignLoss, CategoryCELoss)
-from model_clip import ProjectionHead, setup_clip_text_encoder, EMA
+from shared.atm.task2b.model_clip import ProjectionHead, setup_clip_text_encoder, EMA
 
 
 # ----------------------------------------------------------------------------

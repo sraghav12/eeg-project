@@ -8,3 +8,16 @@ outputs/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+.DS_Store
+.claude/
+wandb/
+clip_cache/
+clip_runs/
+*.aux
+*.log
+*.synctex.gz
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
