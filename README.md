@@ -268,7 +268,6 @@ Hardware: 1× V100, PSC Bridges-2 GPU-shared partition. ATM full run ≈ 20 min/
 
 ## 8. What's *not* in this repo (and why)
 
-- **HW4P2 (`4p2/`)** — separate homework, not part of the project.
 - **`atm_reference/`, `enigma_reference/`** — third-party reference clones with their own `.git`. Kept locally as read-only documentation; full attribution in [atm/README.md](atm/README.md) and [enigma/README.md](enigma/README.md). Both are MIT/Apache licensed.
 - **Model checkpoints (`*.pt`)** — gitignored. Only the JSON sidecars (full hyperparameters + per-epoch history + best metrics) are committed under each model's `checkpoints/` directory. That's enough to *reproduce* every plot in this README from scratch.
 - **Large eval artifacts** — `similarity_matrix.npy` (~84 MB), `ensemble_predictions.pt`, `clip_cache/`, `wandb/` runs.
